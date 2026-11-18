@@ -1,0 +1,501 @@
+siparis_id,musteri_adi,email,sehir,tarih,urun,kategori,adet,birim_fiyat,odeme_yontemi,durum,email_gecerli
+SP-1001,Burak Kaya,burak.kaya95@gmail.com,İstanbul,2026-04-22,Kablosuz Kulaklık,Elektronik,NA,1006.16,Kredi Kartı,Kargoda,TRUE
+SP-1002,Emre Demir,NA,Konya,2026-05-16,Roman Kitap,Kitap,1,114.23,Kapıda Ödeme,NA,FALSE
+SP-1003,Selin Şahin,selin.sahin30@gmail.com,Bursa,2026-07-06,Powerbank 10000mah,Elektronik,1,318.33,Kredi Kartı,Teslim Edildi,TRUE
+SP-1004,Mustafa Çelik,mustafa.celik5@outlook.com,İstanbul,2026-10-18,Kahve Makinesi,Ev,1,1405.11,Havale/EFT,Kargoda,TRUE
+SP-1005,Deniz Kılıç,NA,İstanbul,NA,Roman Kitap,Kitap,1,186.72,Kredi Kartı,Kargoda,FALSE
+SP-1006,NA,burak.kaya21yahoo.com,Adana,2026-05-15,Kahve Makinesi,Ev,3,2627.02,Kapıda Ödeme,İptal,FALSE
+SP-1007,Emre Demir,NA,İzmir,NA,Kahve Makinesi,Ev,4,3093.05,Kredi Kartı,Kargoda,FALSE
+SP-1008,Burak Arslan,burak.arslan70@hotmail.com,Bursa,2026-07-11,Kahve Makinesi,Ev,2,1279.79,Havale/EFT,İade,TRUE
+SP-1009,Ahmet Kaya,ahmet.kaya31@outlook.com,Ankara,2026-10-20,Kablosuz Kulaklık,Elektronik,4,621.71,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1451,Emre Öztürk,emre.ozturk11@outlook.com,Bursa,2026-09-26,Yoga Matı,Spor,1,225.62,Havale/EFT,Kargoda,TRUE
+SP-1010,Elıf Yılmaz,elif.yilmaz25@hotmail.com,Ankara,2026-05-23,Powerbank 10000mah,Elektronik,2,324.25,Kredi Kartı,Teslim Edildi,TRUE
+SP-1011,Ayşe Şahin,ayse.sahin22yahoo.com,Bursa,2026-08-21,Telefon Kılıfı,Aksesuar,1,137.22,Kredi Kartı,NA,FALSE
+SP-1012,Can Doğan,can.dogan9@hotmail.com,Antalya,2026-01-21,Telefon Kılıfı,Aksesuar,2,70.81,Havale/EFT,İptal,TRUE
+SP-1123,Okan Yılmaz,okan.yilmaz92@outlook.com,Konya,2026-07-21,Yoga Matı,Spor,1,NA,Kredi Kartı,Kargoda,TRUE
+SP-1013,Mustafa Demir,mustafa.demir80@,Ankara,2026-03-09,Yoga Matı,Spor,4,287.17,Kredi Kartı,Teslim Edildi,FALSE
+SP-1014,Burak Doğan,burak.dogan14@hotmail.com,Antalya,2026-06-25,Yoga Matı,Spor,1,429.53,Kredi Kartı,Teslim Edildi,TRUE
+SP-1471,Fatma Arslan,fatma.arslan41@outlook.com,Adana,2026-09-16,Powerbank 10000mah,Elektronik,3,436.18,Havale/EFT,NA,TRUE
+SP-1015,Ahmet Aydın,NA,Adana,2026-10-07,Telefon Kılıfı,Aksesuar,1,181.05,Kredi Kartı,İptal,FALSE
+SP-1427,Zeynep Aydın,zeynep.aydin50@gmail.com,Ankara,2026-03-03,Tost Makinesi,Ev,1,NA,Havale/EFT,İade,TRUE
+SP-1016,Okan Aydın,okan.aydin53@hotmail.com,Ankara,2026-04-01,Laptop Çantası,Aksesuar,2,625.14,Havale/EFT,İade,TRUE
+SP-1017,Ali Demir,ali.demir59@outlook.com,Konya,2026-04-25,Powerbank 10000mah,Elektronik,1,453.02,Kapıda Ödeme,İptal,TRUE
+SP-1018,Ahmet Kaya,ahmet.kaya56@outlook.com,İzmir,2026-09-19,Yoga Matı,Spor,5,NA,Kapıda Ödeme,İptal,TRUE
+SP-1019,Selin Aydın,selin.aydin52@outlook.com,Ankara,2026-07-14,Powerbank 10000mah,Elektronik,1,587.9,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1020,Elif Arslan,elif.arslan95@hotmail.com,İzmir,2026-06-21,Python Eğitim Kitabı,Kitap,2,342.15,Kredi Kartı,Teslim Edildi,TRUE
+SP-1021,Elif Öztürk,elif.ozturk84@gmail.com,Konya,2026-02-24,Tost Makinesi,Ev,2,NA,Kredi Kartı,Kargoda,TRUE
+SP-1022,Elif Demir,elif.demir57@yahoo.com,Antalya,2026-03-23,Python Eğitim Kitabı,Kitap,5,340.22,Kredi Kartı,İptal,TRUE
+SP-1023,Denız Çelık,deniz.celik30@yahoo.com,Adana,2026-08-01,Laptop Çantası,Aksesuar,1,399.44,Kredi Kartı,Kargoda,TRUE
+SP-1024,Merve Kılıç,merve.kilic54@hotmail.com,İzmir,2026-01-15,Roman Kitap,Kitap,4,132.01,Kredi Kartı,Teslim Edildi,TRUE
+SP-1025,Burak Öztürk,burak.ozturk59@outlook.com,Bursa,2026-08-04,Telefon Kılıfı,Aksesuar,1,224.7,Kredi Kartı,İade,TRUE
+SP-1026,Emre Yılmaz,emre.yilmaz86@gmail.com,Ankara,2026-05-12,Laptop Çantası,Aksesuar,1,359.65,Kredi Kartı,Teslim Edildi,TRUE
+SP-1027,Okan Çelik,NA,Konya,2026-03-03,Tost Makinesi,Ev,5,1445.08,Kapıda Ödeme,İade,FALSE
+SP-1028,Merve Arslan,MERVE.ARSLAN20@YAHOO.COM,Antalya,2026-05-19,Powerbank 10000mah,Elektronik,1,473.41,Kredi Kartı,İptal,TRUE
+SP-1029,Ali Arslan,ALI.ARSLAN64@OUTLOOK.COM,Ankara,2026-05-13,Laptop Çantası,Aksesuar,2,662.76,Kredi Kartı,İptal,TRUE
+SP-1030,Burak Arslan,burak.arslan40@outlook.com,Antalya,2026-10-09,Python Eğitim Kitabı,Kitap,1,370.3,Kredi Kartı,İptal,TRUE
+SP-1031,Fatma Şahin,fatma.sahin13@hotmail.com,İzmir,2026-01-08,Python Eğitim Kitabı,Kitap,2,246.36,Kredi Kartı,İptal,TRUE
+SP-1032,Ayşe Yılmaz,NA,İstanbul,NA,Tost Makinesi,Ev,1,1012.77,Kapıda Ödeme,İptal,FALSE
+SP-1033,Selin Kılıç,selin.kilic76@yahoo.com,Antalya,2026-02-20,Tost Makinesi,Ev,2,948.26,Kredi Kartı,Teslim Edildi,TRUE
+SP-1348,Elif Kaya,elif.kaya17@yahoo.com,İstanbul,2026-09-27,Telefon Kılıfı,Aksesuar,NA,195.21,Kredi Kartı,Kargoda,TRUE
+SP-1034,NA,mustafa.arslan59@gmail.com,İzmir,2026-04-12,Tost Makinesi,Ev,1,1216.9,Havale/EFT,Teslim Edildi,TRUE
+SP-1035,Elif Kaya,NA,İstanbul,2026-06-15,Python Eğitim Kitabı,Kitap,2,345.28,Kredi Kartı,Teslim Edildi,FALSE
+SP-1036,Elif Doğan,elif.dogan63@gmail.com,Bursa,2026-02-23,Python Eğitim Kitabı,Kitap,1,399.86,Kapıda Ödeme,Kargoda,TRUE
+SP-1037,Ayşe Öztürk,ayse.ozturk7@hotmail.com,Antalya,2026-08-15,Kahve Makinesi,Ev,1,NA,Havale/EFT,Kargoda,TRUE
+SP-1038,Deniz Demir,deniz.demir15@yahoo.com,Adana,2026-09-13,Yoga Matı,Spor,NA,315.25,Kapıda Ödeme,Kargoda,TRUE
+SP-1039,Fatma Kılıç,fatma.kilic54@outlook.com,Antalya,2026-01-02,Kahve Makinesi,Ev,NA,2616.47,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1040,Elif Aydın,elif.aydin53@gmail.com,Bursa,2026-07-15,Laptop Çantası,Aksesuar,1,789.43,Kredi Kartı,İade,TRUE
+SP-1041,Ahmet Demir,ahmet.demir34@outlook.com,Bursa,2026-06-18,Roman Kitap,Kitap,NA,183.22,Havale/EFT,Kargoda,TRUE
+SP-1042,Fatma Kaya,fatma.kaya22@outlook.com,İstanbul,2026-01-29,Roman Kitap,Kitap,3,197.18,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1043,Selin Şahin,selin.sahin33@gmail.com,Bursa,2026-10-07,Python Eğitim Kitabı,Kitap,1,399.08,Kapıda Ödeme,Kargoda,TRUE
+SP-1044,Merve Arslan,merve.arslan38@gmail.com,Adana,2026-01-05,Powerbank 10000mah,Elektronik,2,394.88,Kapıda Ödeme,Kargoda,TRUE
+SP-1045,Fatma Şahin,fatma.sahin18@gmail.com,Adana,2026-08-14,Tost Makinesi,Ev,3,975.69,Kapıda Ödeme,Kargoda,TRUE
+SP-1046,Can Doğan,can.dogan38@outlook.com,Bursa,2026-03-14,Yoga Matı,Spor,1,399.14,Havale/EFT,Kargoda,TRUE
+SP-1047,Can Kaya,NA,Ankara,2026-10-15,Python Eğitim Kitabı,Kitap,2,268.46,Kredi Kartı,İptal,FALSE
+SP-1048,Ali Arslan,ali.arslan86@yahoo.com,Adana,2026-08-01,Powerbank 10000mah,Elektronik,NA,338.88,Kredi Kartı,İptal,TRUE
+SP-1049,Fatma Aydın,fatma.aydin8@yahoo.com,İstanbul,NA,Powerbank 10000mah,Elektronik,1,692.37,Havale/EFT,İade,TRUE
+SP-1050,Selin Şahin,selin.sahin19@hotmail.com,Konya,2026-01-14,Laptop Çantası,Aksesuar,1,430.71,Kredi Kartı,Teslim Edildi,TRUE
+SP-1051,Deniz Kaya,deniz.kaya29@gmail.com,Konya,2026-06-04,Python Eğitim Kitabı,Kitap,1,287.59,Kredi Kartı,Kargoda,TRUE
+SP-1052,Ayşe Kaya,ayse.kaya71@outlook.com,Antalya,2026-08-21,Dumbell Seti,Spor,1,825.81,Kapıda Ödeme,İptal,TRUE
+SP-1053,Merve Arslan,merve.arslan48@hotmail.com,Bursa,2026-02-13,Roman Kitap,Kitap,1,124.08,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1054,Merve Yılmaz,merve.yilmaz85@yahoo.com,İstanbul,2026-10-12,Yoga Matı,Spor,1,330.12,Havale/EFT,Teslim Edildi,TRUE
+SP-1055,Ahmet Demir,ahmet.demir19@,Adana,2026-01-16,Yoga Matı,Spor,1,360.81,Kredi Kartı,İade,FALSE
+SP-1056,Okan Yılmaz,okan.yilmaz85@yahoo.com,Bursa,2026-04-21,Telefon Kılıfı,Aksesuar,2,89.91,Kredi Kartı,Kargoda,TRUE
+SP-1057,NA,ahmet.sahin16@gmail.com,Bursa,2026-07-14,Yoga Matı,Spor,3,433.6,Kapıda Ödeme,İade,TRUE
+SP-1406,Ali Şahin,ali.sahin7@outlook.com,Ankara,2026-08-15,Kahve Makinesi,Ev,1,1805.68,Kredi Kartı,İptal,TRUE
+SP-1058,Ahmet Arslan,NA,İstanbul,2026-03-29,Powerbank 10000mah,Elektronik,2,644.84,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1059,Can Kaya,can.kaya10@gmail.com,Ankara,2026-06-28,Roman Kitap,Kitap,2,183.17,Kredi Kartı,Teslim Edildi,TRUE
+SP-1060,Elif Kılıç,elif.kilic80@outlook.com,Adana,2026-08-14,Tost Makinesi,Ev,4,1193.8,Kredi Kartı,İade,TRUE
+SP-1061,Ahmet Aydın,ahmet.aydin65@yahoo.com,Antalya,2026-01-22,Yoga Matı,Spor,3,173.02,Kapıda Ödeme,Kargoda,TRUE
+SP-1062,Deniz Kaya,deniz.kaya68@hotmail.com,İzmir,2026-06-23,Kahve Makinesi,Ev,1,2386.09,Kapıda Ödeme,İade,TRUE
+SP-1063,Alı Çelık,ali.celik45@outlook.com,Adana,2026-03-08,Tost Makinesi,Ev,1,1660.61,Kredi Kartı,İade,TRUE
+SP-1064,Burak Öztürk,burak.ozturk99@yahoo.con,Ankara,2026-06-01,Kahve Makinesi,Ev,1,1732.2,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1065,Mehmet Demır,mehmet.demir57@gmail.com,Adana,2026-08-16,Telefon Kılıfı,Aksesuar,3,217.96,Havale/EFT,İptal,TRUE
+SP-1066,Zeynep Kılıç,zeynep.kilic21@hotmail.com,Ankara,2026-01-27,Python Eğitim Kitabı,Kitap,1,290.8,Kredi Kartı,Teslim Edildi,TRUE
+SP-1067,Okan Doğan,okan.dogan45@gmail.com,Bursa,2026-05-01,Telefon Kılıfı,Aksesuar,1,217.9,Kredi Kartı,İade,TRUE
+SP-1068,Deniz Demir,NA,İzmir,2026-03-04,Python Eğitim Kitabı,Kitap,NA,287.66,Havale/EFT,Kargoda,FALSE
+SP-1069,Deniz Demir,deniz.demir86@gmail.com,İzmir,2026-09-27,Yoga Matı,Spor,2,NA,Havale/EFT,Kargoda,TRUE
+SP-1070,Deniz Yılmaz,NA,İzmir,2026-03-31,Dumbell Seti,Spor,1,951.96,Kredi Kartı,Teslim Edildi,FALSE
+SP-1071,Ahmet Çelik,ahmet.celik66@yahoo.com,Antalya,2026-01-19,Laptop Çantası,Aksesuar,NA,274.09,Kapıda Ödeme,İade,TRUE
+SP-1072,Deniz Arslan,deniz.arslan67@outlook.com,Adana,2026-08-09,Roman Kitap,Kitap,1,114.07,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1073,Mehmet Arslan,mehmet.arslan56@outlook.com,Konya,2026-02-08,Dumbell Seti,Spor,2,712.99,Kredi Kartı,Teslim Edildi,TRUE
+SP-1074,Ahmet Demir,ahmet.demir5@hotmail.com,İzmir,2026-02-09,Powerbank 10000mah,Elektronik,2,394.4,Kapıda Ödeme,İptal,TRUE
+SP-1075,Okan Doğan,okan.dogan37@yahoo.con,Ankara,2026-08-20,Powerbank 10000mah,Elektronik,1,404.71,Havale/EFT,NA,FALSE
+SP-1269,Deniz Kılıç,deniz.kilic2@gmail.com,İstanbul,2026-09-26,Laptop Çantası,Aksesuar,2,535.97,Havale/EFT,Teslim Edildi,TRUE
+SP-1076,Okan Çelik,NA,Ankara,2026-05-02,Telefon Kılıfı,Aksesuar,4,195.24,Kredi Kartı,İade,FALSE
+SP-1077,Ayşe Çelik,NA,İzmir,2026-08-19,Roman Kitap,Kitap,2,NA,Kredi Kartı,Teslim Edildi,FALSE
+SP-1078,Merve Kaya,merve.kaya45@outlook.com,İzmir,2026-10-10,Kahve Makinesi,Ev,1,1251.94,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1079,Merve Kılıç,merve.kilic74@outlook.com,Konya,2026-01-16,Kablosuz Kulaklık,Elektronik,NA,1068.93,Kapıda Ödeme,NA,TRUE
+SP-1080,Ali Arslan,ali.arslan44@hotmail.com,Adana,2026-06-26,Powerbank 10000mah,Elektronik,1,575.45,Havale/EFT,İade,TRUE
+SP-1081,Mehmet Kaya,mehmet.kaya21@outlook.com,Adana,2026-03-23,Kablosuz Kulaklık,Elektronik,1,667.66,Havale/EFT,Teslim Edildi,TRUE
+SP-1082,Fatma Kılıç,fatma.kilic87@yahoo.com,İstanbul,2026-08-09,Dumbell Seti,Spor,1,434.06,Havale/EFT,Kargoda,TRUE
+SP-1083,Ayşe Öztürk,NA,İstanbul,2026-06-23,Kahve Makinesi,Ev,2,1935.82,Kapıda Ödeme,Kargoda,FALSE
+SP-1084,Emre Arslan,EMRE.ARSLAN79@OUTLOOK.COM,Antalya,2026-06-03,Kahve Makinesi,Ev,2,1951.07,Kredi Kartı,İptal,TRUE
+SP-1085,Mustafa Kılıç,mustafa.kilic61@outlook.com,Konya,2026-10-24,Yoga Matı,Spor,2,389.03,Kredi Kartı,Kargoda,TRUE
+SP-1248,Elıf Demır,elif.demir60@gmail.com,Ankara,2026-08-01,Tost Makinesi,Ev,1,955.99,Kredi Kartı,Teslim Edildi,TRUE
+SP-1086,Fatma Yılmaz,fatma.yilmaz79@yahoo.com,Adana,2026-03-12,Python Eğitim Kitabı,Kitap,1,255.29,Kapıda Ödeme,Kargoda,TRUE
+SP-1087,Can Aydın,can.aydin29@outlook.com,Adana,2026-09-08,Yoga Matı,Spor,1,333.02,Kapıda Ödeme,İptal,TRUE
+SP-1088,Merve Aydın,merve.aydin57@outlook.com,Ankara,2026-10-03,Telefon Kılıfı,Aksesuar,1,115.19,Havale/EFT,İptal,TRUE
+SP-1089,Ahmet Kaya,ahmet.kaya71@hotmail.com,Bursa,2026-04-13,Roman Kitap,Kitap,1,112.94,Kredi Kartı,Teslim Edildi,TRUE
+SP-1090,Okan Demir,OKAN.DEMIR51@YAHOO.COM,Adana,2026-05-29,Roman Kitap,Kitap,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1091,Okan Demır,okan.demir59@outlook.com,İstanbul,2026-06-01,Kahve Makinesi,Ev,NA,1976.45,Kredi Kartı,Kargoda,TRUE
+SP-1092,Mehmet Demir,mehmet.demir97@outlook.com,İzmir,2026-10-21,Python Eğitim Kitabı,Kitap,1,257.66,Havale/EFT,İptal,TRUE
+SP-1093,Deniz Kaya,deniz.kaya59@outlook.com,Antalya,2026-10-03,Yoga Matı,Spor,1,260.26,Kredi Kartı,Teslim Edildi,TRUE
+SP-1094,Ahmet Doğan,ahmet.dogan57@gmail.com,Adana,2026-02-16,Kahve Makinesi,Ev,2,1364.96,Havale/EFT,Kargoda,TRUE
+SP-1095,Deniz Yılmaz,deniz.yilmaz55@outlook.com,Antalya,2026-02-05,Roman Kitap,Kitap,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1096,Merve Öztürk,MERVE.OZTURK45@GMAIL.COM,Antalya,2026-03-07,Roman Kitap,Kitap,5,80.43,Kapıda Ödeme,İptal,TRUE
+SP-1097,Merve Şahin,merve.sahin98gmail.com,Adana,2026-01-09,Laptop Çantası,Aksesuar,1,503.34,Havale/EFT,Teslim Edildi,FALSE
+SP-1098,Can Şahin,can.sahin74@outlook.com,Konya,2026-06-14,Kablosuz Kulaklık,Elektronik,5,555.1,Kredi Kartı,İptal,TRUE
+SP-1099,Burak Öztürk,burak.ozturk68@outlook.com,Bursa,2026-07-12,Kahve Makinesi,Ev,5,2039.93,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1100,Can Doğan,NA,Adana,2026-01-27,Telefon Kılıfı,Aksesuar,1,NA,Havale/EFT,İptal,FALSE
+SP-1101,Okan Yılmaz,okan.yilmaz62@hotmail.com,Adana,2026-05-03,Laptop Çantası,Aksesuar,NA,765.44,Kredi Kartı,İade,TRUE
+SP-1102,Elif Kaya,elif.kaya6@hotmail.com,İstanbul,2026-10-27,Python Eğitim Kitabı,Kitap,1,362.79,Kapıda Ödeme,Kargoda,TRUE
+SP-1103,Alı Arslan,ALI.ARSLAN70@YAHOO.COM,Antalya,2026-01-31,Python Eğitim Kitabı,Kitap,2,290.6,Havale/EFT,Teslim Edildi,TRUE
+NA,Ayşe Demir,ayse.demir79@yahoo.com,İstanbul,2026-10-10,Kablosuz Kulaklık,Elektronik,NA,614.04,Kapıda Ödeme,İptal,TRUE
+SP-1105,Emre Demir,emre.demir33@outlook.com,Bursa,2026-07-27,Powerbank 10000mah,Elektronik,2,667.22,Kredi Kartı,Teslim Edildi,TRUE
+SP-1106,Ahmet Yılmaz,ahmet.yilmaz13@gmail.com,Konya,2026-10-18,Telefon Kılıfı,Aksesuar,3,75.71,Kapıda Ödeme,İptal,TRUE
+SP-1107,Ahmet Şahin,ahmet.sahin39@hotmail.com,Antalya,2026-07-19,Tost Makinesi,Ev,3,858.61,Kredi Kartı,Teslim Edildi,TRUE
+SP-1108,Zeynep Kılıç,zeynep.kilic35@yahoo.com,İzmir,2026-07-12,Tost Makinesi,Ev,1,1750.34,Kredi Kartı,İptal,TRUE
+SP-1109,Mustafa Demir,NA,İstanbul,2026-08-18,Roman Kitap,Kitap,3,111.17,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1389,Deniz Aydın,deniz.aydin54@outlook.com,Ankara,2026-06-19,Telefon Kılıfı,Aksesuar,2,112.84,Kapıda Ödeme,İptal,TRUE
+SP-1110,Ahmet Çelik,ahmet.celik32@hotmail.com,Ankara,2026-06-04,Roman Kitap,Kitap,1,120.41,Havale/EFT,Kargoda,TRUE
+SP-1385,Ahmet Öztürk,ahmet.ozturk54@gmail.com,İzmir,2026-02-02,Laptop Çantası,Aksesuar,1,760.85,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1111,Fatma Arslan,fatma.arslan51@outlook.com,Bursa,2026-06-18,Tost Makinesi,Ev,NA,NA,Havale/EFT,Teslim Edildi,TRUE
+SP-1112,Elif Aydın,elif.aydin63@hotmail.com,İzmir,2026-07-21,Telefon Kılıfı,Aksesuar,5,243.27,Kredi Kartı,Teslim Edildi,TRUE
+SP-1113,Emre Çelik,emre.celik82@outlook.com,Adana,2026-08-05,Powerbank 10000mah,Elektronik,3,627.59,Kapıda Ödeme,NA,TRUE
+SP-1114,Can Yılmaz,can.yilmaz14@hotmail.com,İzmir,2026-01-23,Dumbell Seti,Spor,3,891.14,Kredi Kartı,NA,TRUE
+SP-1115,Ayşe Çelik,ayse.celik58@outlook.com,Konya,2026-09-14,Laptop Çantası,Aksesuar,2,530.87,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1116,Ali Aydın,ali.aydin93@yahoo.com,İzmir,2026-02-28,Python Eğitim Kitabı,Kitap,2,368.22,Kapıda Ödeme,İptal,TRUE
+SP-1117,Elif Şahin,elif.sahin95@hotmail.com,Bursa,2026-04-20,Roman Kitap,Kitap,1,151.87,Kredi Kartı,İade,TRUE
+SP-1118,Can Aydın,can.aydin59@hotmail.com,Adana,2026-02-13,Tost Makinesi,Ev,NA,1127.5,Kredi Kartı,İade,TRUE
+SP-1119,Selin Öztürk,selin.ozturk23@hotmail.com,Ankara,2026-08-19,Roman Kitap,Kitap,2,94.15,Kredi Kartı,İptal,TRUE
+SP-1120,Mustafa Arslan,mustafa.arslan98@hotmail.com,İzmir,2026-05-28,Roman Kitap,Kitap,1,162.32,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1121,Can Yılmaz,can.yilmaz97@hotmail.com,İstanbul,2026-06-28,Python Eğitim Kitabı,Kitap,NA,311.12,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1122,Merve Kılıç,merve.kilic8@outlook.com,Antalya,2026-06-15,Roman Kitap,Kitap,1,91.58,Kapıda Ödeme,NA,TRUE
+SP-1124,Mustafa Doğan,mustafa.dogan75@gmail.com,Konya,2026-08-23,Yoga Matı,Spor,4,358.41,Kredi Kartı,Kargoda,TRUE
+SP-1125,Ali Aydın,ali.aydin44gmail.com,Adana,NA,Yoga Matı,Spor,2,NA,Havale/EFT,NA,FALSE
+SP-1126,Mehmet Çelik,mehmet.celik22@gmail.com,İzmir,2026-04-30,Powerbank 10000mah,Elektronik,1,561.84,Kredi Kartı,İptal,TRUE
+SP-1127,Ahmet Yılmaz,ahmet.yilmaz10@hotmail.com,Adana,NA,Dumbell Seti,Spor,5,971.98,Kredi Kartı,Teslim Edildi,TRUE
+SP-1128,Selin Demir,selin.demir79@yahoo.com,İstanbul,2026-03-13,Python Eğitim Kitabı,Kitap,1,264.29,Kredi Kartı,NA,TRUE
+SP-1129,Fatma Doğan,fatma.dogan85@outlook.con,Antalya,2026-07-20,Tost Makinesi,Ev,2,1360.01,Kredi Kartı,Kargoda,FALSE
+SP-1130,Can Yılmaz,can.yilmaz47@hotmail.com,Konya,2026-10-28,Dumbell Seti,Spor,1,1053.75,Kapıda Ödeme,Kargoda,TRUE
+SP-1131,Mustafa Öztürk,mustafa.ozturk11@hotmail.com,Ankara,2026-07-20,Powerbank 10000mah,Elektronik,2,556.21,Kredi Kartı,İptal,TRUE
+SP-1132,Fatma Kaya,NA,Adana,2026-01-06,Roman Kitap,Kitap,NA,85.08,Havale/EFT,Teslim Edildi,FALSE
+SP-1133,Deniz Kaya,deniz.kaya74@gmail.com,Antalya,2026-09-13,Kablosuz Kulaklık,Elektronik,1,701.26,Kredi Kartı,Teslim Edildi,TRUE
+SP-1134,Fatma Yılmaz,fatma.yilmaz5@yahoo.com,Ankara,2026-06-13,Python Eğitim Kitabı,Kitap,4,267.35,Kredi Kartı,Teslim Edildi,TRUE
+SP-1413,Mustafa Arslan,mustafa.arslan27@gmail.com,İzmir,2026-04-09,Powerbank 10000mah,Elektronik,2,677.9,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1135,Mustafa Kaya,mustafa.kaya59@gmail.com,İzmir,2026-06-05,Python Eğitim Kitabı,Kitap,3,387.85,Havale/EFT,NA,TRUE
+SP-1136,Mehmet Yılmaz,mehmet.yilmaz2outlook.com,Adana,2026-06-07,Roman Kitap,Kitap,2,73.11,Havale/EFT,NA,FALSE
+SP-1137,Okan Doğan,okan.dogan13@hotmail.com,Bursa,2026-10-18,Roman Kitap,Kitap,1,161.11,Kredi Kartı,Kargoda,TRUE
+SP-1138,Fatma Demir,fatma.demir16@outlook.com,Ankara,2026-08-26,Tost Makinesi,Ev,1,819.87,Kapıda Ödeme,İptal,TRUE
+SP-1139,NA,mehmet.kaya23@gmail.com,Konya,2026-10-09,Laptop Çantası,Aksesuar,NA,782.62,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1140,Burak Kaya,burak.kaya26@yahoo.com,İstanbul,2026-06-19,Tost Makinesi,Ev,NA,1344.73,Kapıda Ödeme,Kargoda,TRUE
+SP-1141,Mehmet Aydın,mehmet.aydin79@hotmail.com,Bursa,2026-10-09,Laptop Çantası,Aksesuar,1,749.57,Havale/EFT,Kargoda,TRUE
+SP-1142,Burak Doğan,burak.dogan63@outlook.com,Antalya,2026-05-19,Kablosuz Kulaklık,Elektronik,3,1192.05,Kapıda Ödeme,İptal,TRUE
+SP-1143,Emre Kılıç,emre.kilic95@gmail.com,Ankara,2026-07-18,Laptop Çantası,Aksesuar,1,785.69,Kredi Kartı,İade,TRUE
+NA,Selin Şahin,selin.sahin78hotmail.com,Bursa,2026-04-14,Python Eğitim Kitabı,Kitap,NA,310.11,Kredi Kartı,İade,FALSE
+SP-1145,Emre Kaya,emre.kaya51@gmail.com,İzmir,2026-03-22,Kahve Makinesi,Ev,5,2879.54,Kapıda Ödeme,İade,TRUE
+SP-1146,Fatma Kılıç,fatma.kilic1@yahoo.com,Konya,2026-01-17,Telefon Kılıfı,Aksesuar,2,131.89,Havale/EFT,Teslim Edildi,TRUE
+SP-1147,Zeynep Aydın,zeynep.aydin94@outlook.com,İzmir,2026-02-04,Telefon Kılıfı,Aksesuar,5,180.88,Kapıda Ödeme,Kargoda,TRUE
+SP-1148,Zeynep Doğan,ZEYNEP.DOGAN88@HOTMAIL.COM,İstanbul,2026-01-18,Roman Kitap,Kitap,1,83.19,Kredi Kartı,Kargoda,TRUE
+SP-1149,Zeynep Kılıç,ZEYNEP.KILIC78@YAHOO.COM,İstanbul,2026-04-08,Tost Makinesi,Ev,2,1682.55,Kredi Kartı,İptal,TRUE
+SP-1150,Mehmet Yılmaz,NA,Ankara,2026-05-30,Dumbell Seti,Spor,1,402.67,Kapıda Ödeme,Kargoda,FALSE
+SP-1151,Mehmet Aydın,mehmet.aydin29@outlook.com,Ankara,2026-02-19,Roman Kitap,Kitap,1,118.02,Kapıda Ödeme,İptal,TRUE
+SP-1152,Can Arslan,can.arslan92@gmail.com,Antalya,2026-03-17,Tost Makinesi,Ev,NA,1669.82,Kapıda Ödeme,NA,TRUE
+SP-1153,Fatma Demir,fatma.demir50@yahoo.com,Konya,2026-08-23,Tost Makinesi,Ev,4,983.67,Kredi Kartı,Kargoda,TRUE
+SP-1154,Okan Kaya,okan.kaya53@outlook.com,Bursa,2026-08-31,Tost Makinesi,Ev,3,1557.5,Havale/EFT,Kargoda,TRUE
+SP-1155,NA,ahmet.arslan36@yahoo.com,Adana,2026-04-27,Yoga Matı,Spor,1,419.11,Havale/EFT,Kargoda,TRUE
+SP-1156,Okan Öztürk,okan.ozturk21@gmail.com,Antalya,2026-09-26,Python Eğitim Kitabı,Kitap,3,362.28,Kapıda Ödeme,İptal,TRUE
+SP-1157,Deniz Şahin,deniz.sahin88@gmail.com,Bursa,2026-04-01,Yoga Matı,Spor,1,260.51,Kredi Kartı,İptal,TRUE
+SP-1158,Merve Kılıç,merve.kilic53@gmail.com,Konya,2026-08-31,Laptop Çantası,Aksesuar,2,721.41,Havale/EFT,İptal,TRUE
+SP-1159,Mustafa Öztürk,mustafa.ozturk80@yahoo.com,İstanbul,2026-07-11,Dumbell Seti,Spor,1,721.3,Kapıda Ödeme,Kargoda,TRUE
+SP-1160,Merve Çelik,merve.celik67@hotmail.com,Konya,2026-07-26,Yoga Matı,Spor,5,346.84,Kredi Kartı,İptal,TRUE
+SP-1161,Selin Kılıç,selin.kilic61@outlook.com,Konya,2026-10-13,Laptop Çantası,Aksesuar,2,438.74,Havale/EFT,Teslim Edildi,TRUE
+SP-1382,Mustafa Doğan,mustafa.dogan42@yahoo.com,İzmir,2026-01-23,Powerbank 10000mah,Elektronik,NA,698.13,Havale/EFT,Kargoda,TRUE
+SP-1162,Zeynep Şahin,zeynep.sahin60@gmail.com,Konya,2026-10-25,Yoga Matı,Spor,4,276.14,Kredi Kartı,Teslim Edildi,TRUE
+SP-1163,Merve Demir,merve.demir59@hotmail.com,Adana,2026-02-11,Telefon Kılıfı,Aksesuar,1,248.55,Kredi Kartı,Teslim Edildi,TRUE
+SP-1164,Selin Demir,selin.demir55@yahoo.com,Bursa,2026-01-20,Python Eğitim Kitabı,Kitap,NA,368.45,Havale/EFT,İptal,TRUE
+SP-1165,Fatma Aydın,fatma.aydin6@outlook.com,Bursa,2026-09-26,Yoga Matı,Spor,1,NA,Kapıda Ödeme,İade,TRUE
+SP-1166,Ahmet Şahin,ahmet.sahin22@gmail.com,Adana,2026-07-12,Laptop Çantası,Aksesuar,1,649.94,Kredi Kartı,Teslim Edildi,TRUE
+SP-1167,Deniz Kaya,deniz.kaya27@gmail.com,Adana,2026-09-24,Roman Kitap,Kitap,1,127.76,Havale/EFT,Teslim Edildi,TRUE
+SP-1168,Selin Şahin,selin.sahin21@gmail.com,Ankara,2026-09-04,Yoga Matı,Spor,5,399.45,Kredi Kartı,Teslim Edildi,TRUE
+SP-1169,Emre Doğan,emre.dogan38@outlook.com,İstanbul,2026-01-21,Powerbank 10000mah,Elektronik,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1170,Merve Demir,merve.demir94@gmail.com,İzmir,2026-07-25,Telefon Kılıfı,Aksesuar,4,122.45,Kredi Kartı,Kargoda,TRUE
+SP-1171,Mehmet Yılmaz,mehmet.yilmaz57@hotmail.com,Konya,2026-01-15,Telefon Kılıfı,Aksesuar,4,79.71,Kredi Kartı,Kargoda,TRUE
+SP-1172,Ayşe Çelik,ayse.celik93@hotmail.com,Adana,2026-09-23,Dumbell Seti,Spor,3,408.65,Kapıda Ödeme,İptal,TRUE
+SP-1173,Mehmet Doğan,mehmet.dogan64@,Bursa,2026-06-19,Tost Makinesi,Ev,2,760.02,Kredi Kartı,Kargoda,FALSE
+SP-1174,Emre Kılıç,NA,Bursa,2026-10-09,Python Eğitim Kitabı,Kitap,1,201.12,Kredi Kartı,İptal,FALSE
+SP-1175,Merve Şahin,NA,Konya,2026-01-02,Python Eğitim Kitabı,Kitap,3,259.67,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1176,Ayşe Çelik,NA,Bursa,2026-03-05,Tost Makinesi,Ev,1,915.51,Kredi Kartı,NA,FALSE
+SP-1177,Can Öztürk,can.ozturk75@hotmail.com,Ankara,2026-06-14,Tost Makinesi,Ev,2,1231.23,Havale/EFT,İptal,TRUE
+SP-1178,NA,elif.demir90@outlook.com,Antalya,2026-04-13,Telefon Kılıfı,Aksesuar,2,138.42,Kredi Kartı,Teslim Edildi,TRUE
+SP-1179,Selin Kılıç,selin.kilic55@gmail.com,İstanbul,2026-01-28,Roman Kitap,Kitap,4,157.65,Havale/EFT,İptal,TRUE
+SP-1180,Fatma Doğan,fatma.dogan72@hotmail.com,Antalya,2026-09-19,Kablosuz Kulaklık,Elektronik,1,719.01,Kapıda Ödeme,Kargoda,TRUE
+SP-1181,Can Yılmaz,can.yilmaz57@hotmail.com,Adana,2026-07-08,Kablosuz Kulaklık,Elektronik,1,NA,Kredi Kartı,İptal,TRUE
+SP-1182,Mehmet Demir,mehmet.demir21outlook.com,Bursa,2026-03-21,Kahve Makinesi,Ev,1,1174.51,Kredi Kartı,İptal,FALSE
+SP-1183,Emre Aydın,NA,Ankara,2026-06-19,Kahve Makinesi,Ev,NA,1405.91,Havale/EFT,Teslim Edildi,FALSE
+SP-1184,Ahmet Aydın,ahmet.aydin37@gmail.com,Konya,2026-09-21,Roman Kitap,Kitap,4,NA,Kredi Kartı,İptal,TRUE
+SP-1185,Emre Doğan,emre.dogan88@yahoo.com,Ankara,2026-08-11,Kahve Makinesi,Ev,1,916.86,Kredi Kartı,Kargoda,TRUE
+SP-1186,Emre Çelik,emre.celik58@yahoo.com,İstanbul,2026-03-02,Kahve Makinesi,Ev,3,1062.02,Kredi Kartı,Teslim Edildi,TRUE
+SP-1187,Ali Çelik,ali.celik85@gmail.com,Antalya,2026-07-20,Tost Makinesi,Ev,3,795.16,Kredi Kartı,İptal,TRUE
+SP-1188,Ayşe Yılmaz,ayse.yilmaz27@outlook.com,Adana,2026-03-14,Kablosuz Kulaklık,Elektronik,1,879.54,Havale/EFT,Teslim Edildi,TRUE
+SP-1189,Burak Kaya,NA,Antalya,2026-04-10,Yoga Matı,Spor,2,NA,Kredi Kartı,Teslim Edildi,FALSE
+SP-1190,Ahmet Aydın,ahmet.aydin47@hotmail.com,İzmir,2026-08-25,Laptop Çantası,Aksesuar,2,682.11,Havale/EFT,Teslim Edildi,TRUE
+SP-1191,Ali Kaya,ali.kaya75@yahoo.com,Ankara,2026-10-10,Powerbank 10000mah,Elektronik,3,656.84,Kapıda Ödeme,İptal,TRUE
+SP-1192,Zeynep Doğan,zeynep.dogan22@hotmail.com,Ankara,2026-10-17,Kablosuz Kulaklık,Elektronik,3,947.01,Kredi Kartı,İade,TRUE
+SP-1193,Ali Aydın,ali.aydin61@yahoo.com,İstanbul,2026-06-15,Laptop Çantası,Aksesuar,1,273.54,Kredi Kartı,Teslim Edildi,TRUE
+NA,Can Çelik,can.celik45@yahoo.com,Antalya,2026-03-13,Roman Kitap,Kitap,1,196.45,Kredi Kartı,Teslim Edildi,TRUE
+SP-1195,Burak Şahin,burak.sahin27@hotmail.com,Bursa,2026-01-23,Roman Kitap,Kitap,2,NA,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1196,Selin Kılıç,selin.kilic28@yahoo.com,Bursa,2026-03-29,Kablosuz Kulaklık,Elektronik,2,1108.88,Kredi Kartı,Teslim Edildi,TRUE
+SP-1197,Selin Kılıç,selin.kilic65@yahoo.com,Antalya,2026-09-01,Powerbank 10000mah,Elektronik,NA,391.93,Kredi Kartı,Teslim Edildi,TRUE
+SP-1198,Okan Öztürk,okan.ozturk62@yahoo.com,Konya,2026-10-22,Kahve Makinesi,Ev,4,1867.57,Havale/EFT,Teslim Edildi,TRUE
+SP-1199,Fatma Yılmaz,fatma.yilmaz41@yahoo.com,Ankara,2026-10-27,Kablosuz Kulaklık,Elektronik,1,883.49,Kredi Kartı,NA,TRUE
+SP-1200,Mehmet Aydın,mehmet.aydin91@yahoo.com,Konya,2026-03-02,Kahve Makinesi,Ev,1,2176.3,Kredi Kartı,İptal,TRUE
+SP-1201,Mehmet Öztürk,mehmet.ozturk12@gmail.com,İzmir,2026-01-20,Kablosuz Kulaklık,Elektronik,3,1053.28,Kredi Kartı,İptal,TRUE
+SP-1202,Burak Arslan,burak.arslan25@gmail.com,Antalya,NA,Python Eğitim Kitabı,Kitap,3,182.57,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1203,Mustafa Kılıç,mustafa.kilic37@outlook.com,Konya,2026-04-10,Laptop Çantası,Aksesuar,NA,534.76,Kredi Kartı,Teslim Edildi,TRUE
+SP-1204,Emre Doğan,emre.dogan49@yahoo.com,Konya,2026-08-23,Yoga Matı,Spor,3,412.83,Havale/EFT,İptal,TRUE
+SP-1205,Burak Şahin,burak.sahin34@hotmail.com,Bursa,2026-06-25,Dumbell Seti,Spor,1,688.7,Havale/EFT,İptal,TRUE
+SP-1206,Elif Şahin,ELIF.SAHIN32@OUTLOOK.COM,İstanbul,2026-02-10,Laptop Çantası,Aksesuar,4,654.49,Havale/EFT,Teslim Edildi,TRUE
+SP-1207,Elif Demir,elif.demir55@yahoo.com,İstanbul,2026-07-21,Kahve Makinesi,Ev,1,1544.61,Havale/EFT,Kargoda,TRUE
+SP-1208,Mustafa Kılıç,mustafa.kilic31@outlook.com,Antalya,2026-04-05,Powerbank 10000mah,Elektronik,2,430.17,Havale/EFT,Kargoda,TRUE
+SP-1209,Merve Kaya,merve.kaya95@hotmail.com,İstanbul,2026-09-13,Yoga Matı,Spor,2,391.23,Kapıda Ödeme,İptal,TRUE
+SP-1210,Ayşe Demir,ayse.demir96@outlook.com,İzmir,2026-05-12,Kablosuz Kulaklık,Elektronik,1,611.6,Kredi Kartı,NA,TRUE
+SP-1211,Emre Çelik,emre.celik11@yahoo.com,Bursa,2026-03-16,Dumbell Seti,Spor,2,627.56,Kapıda Ödeme,Kargoda,TRUE
+SP-1212,Zeynep Çelik,zeynep.celik47@yahoo.com,Ankara,2026-03-06,Yoga Matı,Spor,1,331.62,Kredi Kartı,Teslim Edildi,TRUE
+SP-1213,Okan Arslan,okan.arslan14@outlook.com,İstanbul,2026-07-19,Kahve Makinesi,Ev,3,1023.8,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1214,Merve Arslan,merve.arslan90@hotmail.com,Bursa,2026-10-16,Python Eğitim Kitabı,Kitap,2,414,Kapıda Ödeme,Kargoda,TRUE
+SP-1215,Mustafa Çelik,mustafa.celik45@outlook.com,İstanbul,2026-09-09,Telefon Kılıfı,Aksesuar,1,117.68,Kapıda Ödeme,İptal,TRUE
+SP-1216,Fatma Öztürk,fatma.ozturk49@hotmail.com,Bursa,2026-09-22,Kahve Makinesi,Ev,1,1905.34,Kredi Kartı,İptal,TRUE
+SP-1217,Mehmet Çelik,mehmet.celik25outlook.com,İstanbul,2026-01-12,Powerbank 10000mah,Elektronik,2,554.76,Havale/EFT,Teslim Edildi,FALSE
+SP-1218,Zeynep Öztürk,NA,Konya,2026-01-29,Yoga Matı,Spor,1,385.72,Kredi Kartı,İptal,FALSE
+SP-1219,Emre Şahin,emre.sahin59@gmail.com,Ankara,2026-06-09,Roman Kitap,Kitap,1,170.26,Kapıda Ödeme,Teslim Edildi,TRUE
+NA,Okan Yılmaz,okan.yilmaz36@gmail.com,Ankara,2026-01-22,Laptop Çantası,Aksesuar,1,785.3,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1221,Okan Yılmaz,okan.yilmaz63@hotmail.com,Antalya,2026-06-27,Kablosuz Kulaklık,Elektronik,1,716.64,Kredi Kartı,İade,TRUE
+SP-1222,Can Çelik,can.celik94@yahoo.com,Konya,2026-10-11,Kahve Makinesi,Ev,1,2503.19,Kredi Kartı,Kargoda,TRUE
+SP-1223,Okan Yılmaz,OKAN.YILMAZ85@YAHOO.COM,Adana,2026-10-10,Tost Makinesi,Ev,3,1642.51,Kredi Kartı,Teslim Edildi,TRUE
+SP-1224,Fatma Kaya,fatma.kaya63outlook.com,Ankara,2026-02-06,Python Eğitim Kitabı,Kitap,1,225.99,Kapıda Ödeme,Kargoda,FALSE
+SP-1225,Merve Aydın,merve.aydin39@gmail.com,Antalya,2026-04-29,Kablosuz Kulaklık,Elektronik,NA,1067.73,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1226,Burak Arslan,burak.arslan44@hotmail.com,Antalya,2026-06-30,Roman Kitap,Kitap,1,184.77,Havale/EFT,Kargoda,TRUE
+SP-1227,Selin Doğan,selin.dogan58@yahoo.com,İstanbul,2026-05-26,Laptop Çantası,Aksesuar,2,456.28,Havale/EFT,İptal,TRUE
+SP-1228,Okan Doğan,NA,İzmir,2026-05-08,Kahve Makinesi,Ev,4,2179.54,Kredi Kartı,İptal,FALSE
+SP-1229,Mehmet Arslan,mehmet.arslan74@,İstanbul,2026-06-21,Tost Makinesi,Ev,1,1601.47,Kredi Kartı,İptal,FALSE
+SP-1230,Burak Öztürk,BURAK.OZTURK65@HOTMAIL.COM,Adana,2026-07-21,Kablosuz Kulaklık,Elektronik,1,678.59,Kapıda Ödeme,Kargoda,TRUE
+SP-1231,Ayşe Arslan,ayse.arslan56@hotmail.com,Bursa,2026-09-07,Tost Makinesi,Ev,2,1519.85,Kredi Kartı,İptal,TRUE
+SP-1232,Ayşe Öztürk,AYSE.OZTURK99@OUTLOOK.COM,İzmir,2026-08-15,Roman Kitap,Kitap,1,117.48,Kredi Kartı,İade,TRUE
+SP-1233,Deniz Yılmaz,deniz.yilmaz2@outlook.com,İstanbul,2026-08-30,Laptop Çantası,Aksesuar,4,771.92,Kredi Kartı,İptal,TRUE
+SP-1234,Denız Yılmaz,deniz.yilmaz37@hotmail.com,Antalya,2026-08-27,Roman Kitap,Kitap,NA,145.79,Kapıda Ödeme,İptal,TRUE
+SP-1235,Fatma Öztürk,FATMA.OZTURK69@GMAIL.COM,Antalya,2026-10-15,Kahve Makinesi,Ev,1,3146.21,Kredi Kartı,İptal,TRUE
+SP-1236,Zeynep Aydın,zeynep.aydin8@outlook.com,Konya,2026-10-12,Dumbell Seti,Spor,1,837.66,Havale/EFT,Teslim Edildi,TRUE
+SP-1237,Mustafa Şahin,mustafa.sahin70@hotmail.con,Ankara,NA,Tost Makinesi,Ev,5,868.02,Kredi Kartı,Teslim Edildi,FALSE
+SP-1238,Zeynep Kaya,zeynep.kaya19@gmail.com,Bursa,2026-06-05,Kahve Makinesi,Ev,2,2125.81,Kredi Kartı,İptal,TRUE
+SP-1239,Ahmet Kılıç,ahmet.kilic88@gmail.com,Adana,2026-03-10,Tost Makinesi,Ev,2,993.55,Havale/EFT,Kargoda,TRUE
+SP-1240,Ahmet Öztürk,ahmet.ozturk26@,Bursa,2026-09-08,Kablosuz Kulaklık,Elektronik,5,1144.08,Kredi Kartı,Teslim Edildi,FALSE
+SP-1241,Can Kaya,can.kaya69@yahoo.com,İstanbul,2026-09-22,Python Eğitim Kitabı,Kitap,4,289.66,Kredi Kartı,İptal,TRUE
+SP-1242,Deniz Doğan,deniz.dogan24@hotmail.com,İzmir,2026-04-02,Telefon Kılıfı,Aksesuar,NA,148.08,Kredi Kartı,Teslim Edildi,TRUE
+SP-1243,Deniz Kaya,deniz.kaya50@hotmail.com,Bursa,2026-03-29,Powerbank 10000mah,Elektronik,1,345.67,Havale/EFT,Teslim Edildi,TRUE
+SP-1244,Ali Arslan,ali.arslan80outlook.com,Bursa,2026-10-06,Yoga Matı,Spor,NA,337.94,Kredi Kartı,Kargoda,FALSE
+SP-1245,Fatma Doğan,fatma.dogan19@gmail.com,İstanbul,2026-01-17,Yoga Matı,Spor,2,335.93,Havale/EFT,Teslim Edildi,TRUE
+SP-1246,Selin Kılıç,selin.kilic5@gmail.com,İzmir,2026-07-14,Tost Makinesi,Ev,1,1566.04,Kapıda Ödeme,Kargoda,TRUE
+SP-1247,Can Öztürk,can.ozturk81@gmail.com,Adana,2026-05-28,Kahve Makinesi,Ev,NA,1382.64,Kredi Kartı,İade,TRUE
+SP-1249,Ali Çelik,ali.celik51@gmail.com,Ankara,2026-06-23,Kahve Makinesi,Ev,NA,2164.99,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1250,Elif Öztürk,elif.ozturk69@gmail.con,Adana,2026-07-01,Kablosuz Kulaklık,Elektronik,1,1076.33,Kapıda Ödeme,NA,FALSE
+SP-1251,Mehmet Kılıç,mehmet.kilic5@outlook.com,Bursa,2026-07-10,Powerbank 10000mah,Elektronik,3,645.84,Kredi Kartı,Teslim Edildi,TRUE
+SP-1252,Elif Doğan,elif.dogan62@outlook.com,Ankara,2026-02-20,Kablosuz Kulaklık,Elektronik,4,1049.27,Kredi Kartı,Teslim Edildi,TRUE
+SP-1253,Ahmet Çelik,ahmet.celik6@gmail.com,Adana,2026-01-12,Kablosuz Kulaklık,Elektronik,NA,965.29,Kredi Kartı,İptal,TRUE
+SP-1254,Burak Kaya,burak.kaya14@hotmail.com,Antalya,2026-03-14,Yoga Matı,Spor,1,194.8,Kredi Kartı,İptal,TRUE
+SP-1255,Elif Yılmaz,elif.yilmaz76@yahoo.com,İzmir,2026-04-12,Powerbank 10000mah,Elektronik,1,453.44,Kredi Kartı,NA,TRUE
+SP-1256,Ayşe Arslan,ayse.arslan29@hotmail.com,Antalya,2026-07-06,Yoga Matı,Spor,2,355.34,Kredi Kartı,İade,TRUE
+SP-1257,Zeynep Arslan,zeynep.arslan66@gmail.com,Adana,2026-06-16,Python Eğitim Kitabı,Kitap,1,382.98,Havale/EFT,Kargoda,TRUE
+SP-1258,Can Demir,can.demir56@outlook.com,Ankara,2026-02-09,Python Eğitim Kitabı,Kitap,1,272.12,Kredi Kartı,Kargoda,TRUE
+SP-1259,Ali Öztürk,ali.ozturk42@yahoo.com,İstanbul,2026-03-13,Powerbank 10000mah,Elektronik,2,539.3,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1260,Selin Kılıç,selin.kilic87@outlook.com,Bursa,2026-06-26,Python Eğitim Kitabı,Kitap,2,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1261,Ahmet Doğan,ahmet.dogan76@yahoo.com,Adana,2026-07-15,Dumbell Seti,Spor,NA,476.79,Kredi Kartı,Kargoda,TRUE
+SP-1262,Mehmet Yılmaz,NA,Konya,2026-08-22,Powerbank 10000mah,Elektronik,1,559.36,Kapıda Ödeme,Kargoda,FALSE
+SP-1263,Zeynep Şahin,zeynep.sahin92@outlook.com,Antalya,2026-01-18,Telefon Kılıfı,Aksesuar,1,140.71,Havale/EFT,Kargoda,TRUE
+SP-1264,Elif Doğan,elif.dogan85@gmail.com,Antalya,2026-06-09,Powerbank 10000mah,Elektronik,2,509.34,Kapıda Ödeme,Kargoda,TRUE
+SP-1265,NA,emre.celik73@,Bursa,2026-10-21,Yoga Matı,Spor,2,200.25,Havale/EFT,Teslim Edildi,FALSE
+SP-1266,Ali Demir,ali.demir76@hotmail.com,İzmir,NA,Tost Makinesi,Ev,2,1009.07,Kredi Kartı,Teslim Edildi,TRUE
+SP-1267,Merve Arslan,merve.arslan27@,İzmir,2026-03-01,Roman Kitap,Kitap,1,170.15,Havale/EFT,İptal,FALSE
+SP-1268,Mehmet Doğan,NA,Antalya,2026-08-10,Roman Kitap,Kitap,4,71.54,Havale/EFT,Teslim Edildi,FALSE
+SP-1270,Selin Kaya,selin.kaya83@hotmail.com,Adana,2026-05-31,Powerbank 10000mah,Elektronik,2,334.55,Kapıda Ödeme,İptal,TRUE
+SP-1271,Ali Demir,ALI.DEMIR34@OUTLOOK.COM,İstanbul,2026-04-13,Powerbank 10000mah,Elektronik,1,410.91,Kredi Kartı,Kargoda,TRUE
+SP-1358,Fatma Kılıç,fatma.kilic34@yahoo.com,Adana,2026-06-24,Kahve Makinesi,Ev,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+NA,Deniz Çelik,DENIZ.CELIK3@YAHOO.COM,Adana,2026-01-20,Powerbank 10000mah,Elektronik,1,313.94,Kredi Kartı,Teslim Edildi,TRUE
+SP-1273,Mustafa Öztürk,mustafa.ozturk62@gmail.com,İzmir,2026-06-05,Powerbank 10000mah,Elektronik,1,516.05,Havale/EFT,İade,TRUE
+SP-1274,NA,burak.sahin50@gmail.com,İzmir,2026-08-13,Telefon Kılıfı,Aksesuar,5,165.35,Havale/EFT,İptal,TRUE
+SP-1275,Elif Doğan,elif.dogan93@gmail.com,Ankara,2026-09-25,Python Eğitim Kitabı,Kitap,1,411.98,Kredi Kartı,İptal,TRUE
+SP-1276,Elif Kılıç,elif.kilic40@gmail.com,Ankara,2026-02-02,Kablosuz Kulaklık,Elektronik,1,632.01,Kapıda Ödeme,İptal,TRUE
+SP-1277,Zeynep Kaya,zeynep.kaya6@hotmail.com,İstanbul,2026-08-01,Tost Makinesi,Ev,1,1300.47,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1278,Emre Demir,emre.demir76@outlook.com,Konya,2026-09-01,Kablosuz Kulaklık,Elektronik,2,1109.72,Kredi Kartı,Kargoda,TRUE
+SP-1279,NA,selin.demir54@gmail.com,Ankara,2026-09-29,Python Eğitim Kitabı,Kitap,1,326.89,Havale/EFT,NA,TRUE
+SP-1280,Ali Yılmaz,ALI.YILMAZ64@HOTMAIL.COM,İstanbul,2026-07-06,Laptop Çantası,Aksesuar,1,311.97,Kredi Kartı,Kargoda,TRUE
+SP-1281,Mehmet Yılmaz,mehmet.yilmaz75@outlook.com,Adana,2026-06-16,Python Eğitim Kitabı,Kitap,1,303.58,Kredi Kartı,İptal,TRUE
+SP-1282,Ahmet Öztürk,ahmet.ozturk59@hotmail.com,İzmir,2026-03-07,Telefon Kılıfı,Aksesuar,2,101.07,Havale/EFT,Kargoda,TRUE
+SP-1283,Selin Demir,selin.demir53@yahoo.com,Ankara,2026-08-25,Tost Makinesi,Ev,2,NA,Kredi Kartı,İptal,TRUE
+SP-1284,Mustafa Yılmaz,mustafa.yilmaz51@yahoo.com,Adana,2026-08-20,Kablosuz Kulaklık,Elektronik,2,1193.46,Kredi Kartı,Kargoda,TRUE
+SP-1285,Ahmet Arslan,ahmet.arslan59@yahoo.com,Konya,2026-04-05,Yoga Matı,Spor,1,198.54,Kredi Kartı,Teslim Edildi,TRUE
+SP-1286,Ali Öztürk,ali.ozturk88@gmail.com,İzmir,2026-01-29,Yoga Matı,Spor,2,359.42,Kapıda Ödeme,Kargoda,TRUE
+SP-1287,Mehmet Doğan,mehmet.dogan70@gmail.com,Adana,2026-10-25,Powerbank 10000mah,Elektronik,NA,524.3,Kapıda Ödeme,İade,TRUE
+SP-1288,Ali Yılmaz,ali.yilmaz61@outlook.com,İzmir,2026-02-03,Powerbank 10000mah,Elektronik,1,449.13,Kredi Kartı,Teslim Edildi,TRUE
+SP-1463,NA,okan.sahin51@gmail.com,Konya,2026-03-26,Yoga Matı,Spor,2,201.89,Kredi Kartı,Kargoda,TRUE
+SP-1289,Ali Kaya,ali.kaya38@yahoo.com,Antalya,2026-08-31,Telefon Kılıfı,Aksesuar,4,154.3,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1290,Mustafa Kılıç,mustafa.kilic68@yahoo.com,Antalya,2026-06-06,Dumbell Seti,Spor,3,859.03,Kredi Kartı,Teslim Edildi,TRUE
+SP-1291,Selin Demir,SELIN.DEMIR86@HOTMAIL.COM,İstanbul,2026-06-12,Kahve Makinesi,Ev,5,1556.07,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1334,Ayşe Arslan,ayse.arslan91@outlook.com,Adana,2026-08-19,Telefon Kılıfı,Aksesuar,NA,209.37,Havale/EFT,Teslim Edildi,TRUE
+SP-1292,Elif Doğan,ELIF.DOGAN59@OUTLOOK.COM,Adana,2026-09-17,Telefon Kılıfı,Aksesuar,3,NA,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1293,NA,deniz.kaya52@hotmail.com,İstanbul,2026-04-10,Python Eğitim Kitabı,Kitap,1,396.04,Kredi Kartı,Teslim Edildi,TRUE
+SP-1294,Can Öztürk,can.ozturk86@outlook.com,Adana,2026-07-09,Laptop Çantası,Aksesuar,2,519.76,Kredi Kartı,NA,TRUE
+SP-1295,Deniz Öztürk,deniz.ozturk54@hotmail.com,Antalya,2026-04-17,Python Eğitim Kitabı,Kitap,3,249.27,Havale/EFT,NA,TRUE
+SP-1296,Mustafa Demir,mustafa.demir49@outlook.com,İstanbul,2026-06-04,Kahve Makinesi,Ev,2,1962.88,Kredi Kartı,Teslim Edildi,TRUE
+SP-1297,Ayşe Çelik,ayse.celik98@outlook.com,İstanbul,2026-07-05,Roman Kitap,Kitap,4,93.32,Kredi Kartı,Kargoda,TRUE
+SP-1298,Merve Çelik,merve.celik46@,İzmir,2026-07-02,Telefon Kılıfı,Aksesuar,1,170.51,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1299,Merve Aydın,merve.aydin46hotmail.com,Antalya,2026-09-06,Yoga Matı,Spor,2,231.44,Kredi Kartı,İptal,FALSE
+SP-1314,Okan Kılıç,okan.kilic88@outlook.com,Bursa,2026-02-02,Kablosuz Kulaklık,Elektronik,1,841.7,Havale/EFT,Teslim Edildi,TRUE
+SP-1300,Mustafa Arslan,mustafa.arslan47@hotmail.com,Antalya,2026-06-25,Powerbank 10000mah,Elektronik,3,346.63,Havale/EFT,İptal,TRUE
+SP-1301,Ali Demir,ali.demir10@gmail.com,Konya,2026-04-11,Laptop Çantası,Aksesuar,1,321.62,Kredi Kartı,İptal,TRUE
+SP-1302,Okan Kılıç,okan.kilic19@outlook.com,İzmir,2026-09-14,Laptop Çantası,Aksesuar,1,573.18,Havale/EFT,Teslim Edildi,TRUE
+SP-1303,Mehmet Doğan,mehmet.dogan91@yahoo.com,Antalya,2026-02-24,Kablosuz Kulaklık,Elektronik,1,1180.18,Kredi Kartı,Kargoda,TRUE
+SP-1304,Ayşe Doğan,ayse.dogan11@outlook.com,Bursa,2026-06-09,Telefon Kılıfı,Aksesuar,1,NA,Kredi Kartı,Kargoda,TRUE
+SP-1305,Burak Aydın,NA,Bursa,2026-02-22,Telefon Kılıfı,Aksesuar,2,62.43,Kapıda Ödeme,İptal,FALSE
+SP-1306,Ayşe Şahin,ayse.sahin35@yahoo.com,Adana,2026-07-27,Roman Kitap,Kitap,1,164.28,Kredi Kartı,Teslim Edildi,TRUE
+SP-1307,Ahmet Kaya,AHMET.KAYA87@OUTLOOK.COM,Antalya,2026-02-09,Kablosuz Kulaklık,Elektronik,2,1072.73,Kapıda Ödeme,İptal,TRUE
+SP-1308,Emre Doğan,emre.dogan16@yahoo.com,Konya,2026-08-24,Kahve Makinesi,Ev,3,940.64,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1309,Elif Kaya,elif.kaya61@hotmail.com,Bursa,2026-07-13,Tost Makinesi,Ev,2,1442.53,Kredi Kartı,Teslim Edildi,TRUE
+SP-1310,Emre Aydın,emre.aydin85@hotmail.com,Adana,2026-02-13,Roman Kitap,Kitap,1,82.66,Kredi Kartı,İade,TRUE
+SP-1311,Burak Öztürk,burak.ozturk41@yahoo.com,İzmir,2026-09-08,Tost Makinesi,Ev,3,1266.24,Kapıda Ödeme,İade,TRUE
+SP-1312,Fatma Arslan,fatma.arslan74@yahoo.com,Antalya,2026-02-17,Powerbank 10000mah,Elektronik,2,636.15,Havale/EFT,Kargoda,TRUE
+SP-1313,Can Çelik,can.celik66@yahoo.com,Antalya,2026-01-10,Roman Kitap,Kitap,1,156.25,Kapıda Ödeme,Kargoda,TRUE
+SP-1315,Ayşe Demir,ayse.demir56@yahoo.com,İstanbul,2026-05-20,Laptop Çantası,Aksesuar,3,265.24,Kredi Kartı,Teslim Edildi,TRUE
+SP-1316,Zeynep Kılıç,zeynep.kilic85@gmail.com,Konya,2026-03-13,Yoga Matı,Spor,4,410.15,Kredi Kartı,İptal,TRUE
+SP-1317,Emre Aydın,EMRE.AYDIN55@HOTMAIL.COM,Ankara,2026-05-21,Dumbell Seti,Spor,2,982.63,Havale/EFT,İade,TRUE
+SP-1318,Ali Demir,ali.demir78@gmail.com,Adana,2026-01-28,Dumbell Seti,Spor,1,732.66,Kredi Kartı,İptal,TRUE
+SP-1319,Can Şahin,NA,Konya,2026-06-02,Python Eğitim Kitabı,Kitap,4,273.23,Kredi Kartı,Kargoda,FALSE
+SP-1320,Elif Öztürk,elif.ozturk90@outlook.com,İzmir,2026-10-08,Dumbell Seti,Spor,4,902.17,Kredi Kartı,Teslim Edildi,TRUE
+SP-1321,Mustafa Şahin,mustafa.sahin99@hotmail.com,Adana,2026-06-13,Yoga Matı,Spor,1,244.12,Kredi Kartı,İade,TRUE
+SP-1322,Mustafa Öztürk,mustafa.ozturk81@hotmail.com,Bursa,2026-03-28,Tost Makinesi,Ev,4,946.94,Kapıda Ödeme,NA,TRUE
+SP-1323,Emre Arslan,emre.arslan35@outlook.com,Bursa,2026-04-16,Python Eğitim Kitabı,Kitap,2,208.44,Havale/EFT,Kargoda,TRUE
+SP-1324,Ali Şahin,ali.sahin11@gmail.com,Konya,2026-07-23,Tost Makinesi,Ev,1,1196.07,Kapıda Ödeme,İptal,TRUE
+SP-1325,Okan Şahin,okan.sahin77gmail.com,Antalya,2026-06-04,Python Eğitim Kitabı,Kitap,5,397.97,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1326,Okan Arslan,okan.arslan41@gmail.com,Bursa,2026-05-24,Telefon Kılıfı,Aksesuar,2,77.03,Kredi Kartı,İptal,TRUE
+SP-1327,Emre Demir,emre.demir20@gmail.com,İstanbul,2026-03-25,Kahve Makinesi,Ev,2,2861.98,Kredi Kartı,Teslim Edildi,TRUE
+SP-1328,Elif Arslan,elif.arslan37@hotmail.com,Adana,2026-05-20,Powerbank 10000mah,Elektronik,NA,638.34,Kapıda Ödeme,NA,TRUE
+SP-1329,Okan Kaya,okan.kaya88@gmail.com,Antalya,2026-02-24,Laptop Çantası,Aksesuar,2,672.54,Kredi Kartı,Kargoda,TRUE
+SP-1330,Zeynep Yılmaz,zeynep.yilmaz73@hotmail.com,İstanbul,2026-05-25,Tost Makinesi,Ev,1,1745.99,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1331,Ayşe Yılmaz,NA,Bursa,2026-06-08,Laptop Çantası,Aksesuar,3,NA,Kredi Kartı,İade,FALSE
+SP-1332,Ali Kılıç,NA,Antalya,2026-08-26,Tost Makinesi,Ev,3,1165.38,Kredi Kartı,Teslim Edildi,FALSE
+SP-1333,Ali Demir,ali.demir73@gmail.com,İstanbul,2026-09-19,Telefon Kılıfı,Aksesuar,1,190.02,Kredi Kartı,İptal,TRUE
+SP-1335,Merve Kaya,merve.kaya62@yahoo.com,Konya,2026-09-07,Roman Kitap,Kitap,NA,139.47,Kredi Kartı,İptal,TRUE
+SP-1336,Merve Yılmaz,NA,Konya,2026-08-31,Laptop Çantası,Aksesuar,1,722.46,Havale/EFT,Kargoda,FALSE
+SP-1337,Fatma Çelık,fatma.celik92@yahoo.com,Konya,2026-10-24,Tost Makinesi,Ev,1,1612.4,Kredi Kartı,Kargoda,TRUE
+SP-1338,Fatma Yılmaz,fatma.yilmaz83@yahoo.com,İstanbul,2026-06-27,Kahve Makinesi,Ev,2,943.75,Kapıda Ödeme,Kargoda,TRUE
+SP-1339,Okan Kılıç,okan.kilic87@outlook.com,Konya,2026-03-24,Python Eğitim Kitabı,Kitap,1,211.48,Kredi Kartı,Teslim Edildi,TRUE
+SP-1340,Emre Öztürk,emre.ozturk34@outlook.com,Ankara,2026-09-15,Python Eğitim Kitabı,Kitap,NA,252.88,Kapıda Ödeme,İptal,TRUE
+SP-1341,Emre Yılmaz,emre.yilmaz86@gmail.com,Bursa,2026-02-26,Kahve Makinesi,Ev,1,1515.23,Kredi Kartı,Teslim Edildi,TRUE
+SP-1342,Merve Şahin,MERVE.SAHIN94@GMAIL.COM,İzmir,2026-03-12,Dumbell Seti,Spor,1,509.92,Kredi Kartı,İptal,TRUE
+SP-1343,Ali Aydın,NA,Bursa,2026-07-29,Roman Kitap,Kitap,2,116.88,Kredi Kartı,Teslim Edildi,FALSE
+SP-1344,Ayşe Aydın,ayse.aydin5@hotmail.com,İstanbul,2026-09-24,Dumbell Seti,Spor,3,NA,Kredi Kartı,İptal,TRUE
+SP-1345,Merve Çelik,merve.celik70@yahoo.com,Konya,2026-07-27,Kahve Makinesi,Ev,1,2303.92,Havale/EFT,Kargoda,TRUE
+SP-1346,Fatma Kaya,fatma.kaya4@outlook.com,Konya,2026-08-05,Kahve Makinesi,Ev,2,2169.11,Kredi Kartı,İade,TRUE
+SP-1347,Elif Çelik,elif.celik75@hotmail.com,İzmir,2026-10-21,Tost Makinesi,Ev,1,1510.54,Kapıda Ödeme,İade,TRUE
+SP-1349,Denız Öztürk,deniz.ozturk91@gmail.com,Bursa,2026-03-22,Telefon Kılıfı,Aksesuar,1,87.43,Kredi Kartı,Kargoda,TRUE
+SP-1350,Can Demir,can.demir19@hotmail.com,Bursa,2026-06-06,Powerbank 10000mah,Elektronik,5,448.59,Kredi Kartı,Teslim Edildi,TRUE
+SP-1351,Selin Çelik,selin.celik78@hotmail.com,Antalya,2026-08-19,Tost Makinesi,Ev,1,1197.61,Kredi Kartı,Kargoda,TRUE
+SP-1352,Burak Arslan,burak.arslan99@outlook.com,İstanbul,2026-02-13,Yoga Matı,Spor,3,343.77,Kredi Kartı,NA,TRUE
+SP-1353,Ayşe Doğan,NA,Antalya,2026-07-25,Telefon Kılıfı,Aksesuar,1,242.85,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1354,Ali Kaya,ALI.KAYA99@GMAIL.COM,Bursa,2026-01-31,Powerbank 10000mah,Elektronik,2,691.91,Kapıda Ödeme,Kargoda,TRUE
+SP-1355,Ali Öztürk,ali.ozturk66@yahoo.com,İzmir,2026-08-26,Powerbank 10000mah,Elektronik,1,NA,Kredi Kartı,İptal,TRUE
+SP-1356,Fatma Doğan,fatma.dogan27@hotmail.com,Ankara,2026-10-03,Telefon Kılıfı,Aksesuar,NA,NA,Kredi Kartı,Kargoda,TRUE
+SP-1357,Ahmet Arslan,ahmet.arslan81@hotmail.com,Antalya,2026-03-24,Yoga Matı,Spor,3,NA,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1359,Mustafa Doğan,mustafa.dogan10@gmail.com,Konya,2026-03-05,Python Eğitim Kitabı,Kitap,2,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1360,Ahmet Şahin,ahmet.sahin79@outlook.com,Ankara,2026-09-10,Kablosuz Kulaklık,Elektronik,2,1018.82,Kapıda Ödeme,İptal,TRUE
+SP-1361,Ayşe Çelik,ayse.celik87@,Ankara,2026-03-07,Tost Makinesi,Ev,1,1250.36,Kredi Kartı,Teslim Edildi,FALSE
+SP-1362,Ahmet Öztürk,ahmet.ozturk16@yahoo.com,Antalya,2026-04-25,Kablosuz Kulaklık,Elektronik,1,1090.39,Havale/EFT,İade,TRUE
+SP-1363,Deniz Öztürk,deniz.ozturk81gmail.com,Bursa,2026-06-21,Powerbank 10000mah,Elektronik,1,666.8,Havale/EFT,NA,FALSE
+SP-1364,Ayşe Kılıç,ayse.kilic8@gmail.com,Konya,2026-03-07,Tost Makinesi,Ev,1,1182.38,Kredi Kartı,Kargoda,TRUE
+SP-1365,Ali Öztürk,ali.ozturk85@gmail.com,Bursa,2026-02-21,Roman Kitap,Kitap,3,82.46,Havale/EFT,Teslim Edildi,TRUE
+SP-1366,Okan Kılıç,okan.kilic57@hotmail.com,Konya,2026-03-07,Telefon Kılıfı,Aksesuar,1,181.1,Havale/EFT,Teslim Edildi,TRUE
+SP-1367,Zeynep Yılmaz,zeynep.yilmaz72@gmail.com,Ankara,2026-04-14,Kahve Makinesi,Ev,NA,2248.81,Kapıda Ödeme,Kargoda,TRUE
+SP-1419,Mehmet Kaya,mehmet.kaya49@hotmail.com,İstanbul,2026-05-08,Dumbell Seti,Spor,2,987.59,Kapıda Ödeme,Kargoda,TRUE
+SP-1368,Selin Çelik,selin.celik64@hotmail.com,Adana,2026-04-28,Roman Kitap,Kitap,1,112.72,Kredi Kartı,İade,TRUE
+SP-1369,Zeynep Yılmaz,zeynep.yilmaz81outlook.com,İstanbul,2026-05-26,Powerbank 10000mah,Elektronik,2,443.15,Kredi Kartı,Teslim Edildi,FALSE
+SP-1370,Ahmet Demir,ahmet.demir59@hotmail.com,İzmir,2026-09-27,Roman Kitap,Kitap,4,NA,Havale/EFT,Teslim Edildi,TRUE
+SP-1371,Fatma Doğan,fatma.dogan6@hotmail.com,İzmir,2026-06-17,Roman Kitap,Kitap,1,160.27,Kredi Kartı,NA,TRUE
+SP-1372,Emre Kılıç,emre.kilic48@yahoo.com,Ankara,2026-07-11,Powerbank 10000mah,Elektronik,1,366.97,Havale/EFT,Kargoda,TRUE
+SP-1373,Elıf Şahın,elif.sahin48@outlook.com,Ankara,2026-06-01,Roman Kitap,Kitap,1,98.42,Kapıda Ödeme,İade,TRUE
+SP-1374,Emre Arslan,emre.arslan10@outlook.com,İzmir,2026-09-20,Dumbell Seti,Spor,1,591.11,Havale/EFT,İptal,TRUE
+SP-1375,Zeynep Şahin,zeynep.sahin25@hotmail.com,Konya,2026-10-06,Dumbell Seti,Spor,2,575.02,Kredi Kartı,İade,TRUE
+SP-1376,Elif Doğan,elif.dogan30@yahoo.com,Bursa,2026-02-13,Telefon Kılıfı,Aksesuar,1,224.44,Kredi Kartı,Kargoda,TRUE
+SP-1377,Selin Demir,selin.demir44@hotmail.com,Adana,NA,Yoga Matı,Spor,1,433.01,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1378,Mustafa Şahin,NA,İstanbul,2026-04-01,Roman Kitap,Kitap,1,78.28,Kredi Kartı,Kargoda,FALSE
+SP-1379,Elif Yılmaz,NA,Bursa,2026-02-05,Dumbell Seti,Spor,1,NA,Havale/EFT,Kargoda,FALSE
+SP-1380,Can Arslan,can.arslan78@hotmail.com,Antalya,2026-08-24,Yoga Matı,Spor,5,210.51,Havale/EFT,Kargoda,TRUE
+SP-1381,Mustafa Kılıç,mustafa.kilic50@hotmail.com,İstanbul,2026-01-23,Telefon Kılıfı,Aksesuar,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1383,Mustafa Yılmaz,mustafa.yilmaz60@yahoo.com,İstanbul,2026-05-05,Kablosuz Kulaklık,Elektronik,NA,637.95,Kredi Kartı,Teslim Edildi,TRUE
+SP-1384,Ali Kaya,ali.kaya35@hotmail.com,Ankara,2026-01-18,Kahve Makinesi,Ev,1,2605.33,Kredi Kartı,Teslim Edildi,TRUE
+SP-1386,Zeynep Doğan,NA,İzmir,2026-07-25,Laptop Çantası,Aksesuar,4,593.57,Kapıda Ödeme,İptal,FALSE
+SP-1458,Mustafa Aydın,mustafa.aydin16@yahoo.com,Adana,2026-10-11,Kahve Makinesi,Ev,1,1264.42,Kredi Kartı,Teslim Edildi,TRUE
+SP-1387,Ahmet Kaya,ahmet.kaya92@hotmail.com,İstanbul,2026-07-18,Laptop Çantası,Aksesuar,3,476.1,Kredi Kartı,İade,TRUE
+SP-1388,Mustafa Doğan,mustafa.dogan16@outlook.com,Bursa,2026-02-10,Laptop Çantası,Aksesuar,2,526.88,Kredi Kartı,Teslim Edildi,TRUE
+SP-1390,Mehmet Arslan,NA,Ankara,2026-04-15,Kablosuz Kulaklık,Elektronik,1,498.46,Havale/EFT,İptal,FALSE
+SP-1391,Ali Kılıç,ali.kilic47@yahoo.com,Bursa,2026-09-16,Python Eğitim Kitabı,Kitap,1,412.25,Kredi Kartı,NA,TRUE
+SP-1392,Emre Çelik,emre.celik40@yahoo.com,Antalya,2026-02-06,Tost Makinesi,Ev,2,1290.92,Kapıda Ödeme,İade,TRUE
+SP-1393,Deniz Aydın,deniz.aydin5@gmail.com,Antalya,2026-08-12,Roman Kitap,Kitap,2,133.64,Kapıda Ödeme,Kargoda,TRUE
+SP-1394,Deniz Şahin,deniz.sahin4@hotmail.com,Bursa,2026-03-17,Laptop Çantası,Aksesuar,4,NA,Kredi Kartı,Kargoda,TRUE
+SP-1395,Can Şahin,can.sahin69@yahoo.com,Adana,2026-02-15,Roman Kitap,Kitap,1,NA,Kredi Kartı,Kargoda,TRUE
+SP-1396,NA,AHMET.KAYA56@HOTMAIL.COM,Ankara,2026-04-12,Powerbank 10000mah,Elektronik,1,609.5,Havale/EFT,İptal,TRUE
+SP-1397,Alı Öztürk,ali.ozturk38@gmail.com,İzmir,2026-01-16,Python Eğitim Kitabı,Kitap,2,330.44,Kredi Kartı,Teslim Edildi,TRUE
+SP-1398,Ayşe Şahin,ayse.sahin35@yahoo.com,İzmir,2026-06-22,Kahve Makinesi,Ev,1,NA,Kapıda Ödeme,Kargoda,TRUE
+SP-1399,Emre Kaya,emre.kaya18@gmail.com,Konya,2026-05-08,Kablosuz Kulaklık,Elektronik,2,792.69,Kapıda Ödeme,İade,TRUE
+SP-1400,Burak Arslan,burak.arslan55@yahoo.com,Konya,2026-02-21,Laptop Çantası,Aksesuar,1,583.72,Kredi Kartı,Teslim Edildi,TRUE
+SP-1401,Mehmet Arslan,NA,Adana,2026-06-17,Powerbank 10000mah,Elektronik,2,492.87,Kredi Kartı,Kargoda,FALSE
+SP-1402,Ayşe Aydın,ayse.aydin49@yahoo.com,Konya,2026-08-12,Laptop Çantası,Aksesuar,3,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1403,Selin Aydın,selin.aydin8@hotmail.com,Bursa,2026-07-06,Telefon Kılıfı,Aksesuar,5,222.13,Kredi Kartı,İptal,TRUE
+SP-1404,Zeynep Demir,zeynep.demir19@gmail.com,İzmir,2026-03-05,Yoga Matı,Spor,1,401.16,Kapıda Ödeme,İptal,TRUE
+SP-1405,Mehmet Şahın,mehmet.sahin63@yahoo.com,Konya,2026-03-23,Laptop Çantası,Aksesuar,1,635.22,Havale/EFT,İade,TRUE
+SP-1407,Burak Demir,burak.demir13@outlook.com,Ankara,2026-03-02,Roman Kitap,Kitap,1,193.55,Kapıda Ödeme,NA,TRUE
+SP-1408,Elif Çelik,elif.celik86@gmail.com,Konya,2026-07-15,Tost Makinesi,Ev,2,1750.01,Kredi Kartı,Kargoda,TRUE
+SP-1409,Selin Kılıç,selin.kilic50@yahoo.com,Adana,2026-10-20,Tost Makinesi,Ev,NA,1227.45,Kredi Kartı,Teslim Edildi,TRUE
+SP-1410,Ayşe Doğan,AYSE.DOGAN27@GMAIL.COM,Antalya,2026-01-03,Tost Makinesi,Ev,3,1292.88,Kredi Kartı,İptal,TRUE
+SP-1411,Ayşe Kaya,ayse.kaya85@gmail.com,İstanbul,2026-09-23,Kahve Makinesi,Ev,5,NA,Kapıda Ödeme,Kargoda,TRUE
+SP-1412,Selin Doğan,selin.dogan25@hotmail.com,Konya,2026-03-10,Kahve Makinesi,Ev,1,1382.63,Kredi Kartı,Kargoda,TRUE
+SP-1414,Mustafa Yılmaz,mustafa.yilmaz53@gmail.com,İstanbul,NA,Tost Makinesi,Ev,1,972.25,Kredi Kartı,Teslim Edildi,TRUE
+SP-1415,Emre Kaya,emre.kaya13@outlook.com,Konya,2026-05-19,Telefon Kılıfı,Aksesuar,4,160.03,Kapıda Ödeme,Kargoda,TRUE
+SP-1416,Elif Kılıç,elif.kilic19@yahoo.com,İzmir,NA,Telefon Kılıfı,Aksesuar,2,109.22,Havale/EFT,Teslim Edildi,TRUE
+SP-1417,Mustafa Doğan,mustafa.dogan41@gmail.com,İstanbul,2026-02-17,Laptop Çantası,Aksesuar,3,417.85,Kredi Kartı,Kargoda,TRUE
+NA,Elıf Arslan,elif.arslan2@hotmail.com,Adana,2026-08-06,Kahve Makinesi,Ev,2,2475.78,Havale/EFT,Teslim Edildi,TRUE
+SP-1420,Fatma Çelik,fatma.celik63@gmail.com,Antalya,2026-06-02,Kahve Makinesi,Ev,1,2799.17,Kredi Kartı,Teslim Edildi,TRUE
+SP-1421,Mustafa Kaya,mustafa.kaya48@outlook.com,Ankara,2026-05-18,Python Eğitim Kitabı,Kitap,3,181.66,Havale/EFT,Kargoda,TRUE
+SP-1422,Ayşe Şahin,ayse.sahin21@hotmail.com,Adana,2026-03-02,Yoga Matı,Spor,1,NA,Kapıda Ödeme,İade,TRUE
+SP-1423,Mehmet Kaya,mehmet.kaya88@,Konya,2026-01-05,Powerbank 10000mah,Elektronik,1,617.09,Havale/EFT,İptal,FALSE
+SP-1424,Ali Kaya,ali.kaya91@gmail.com,Antalya,2026-04-07,Yoga Matı,Spor,1,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1425,Mustafa Yılmaz,mustafa.yilmaz90@hotmail.com,Bursa,2026-09-19,Tost Makinesi,Ev,3,919.61,Havale/EFT,İade,TRUE
+SP-1426,Zeynep Yılmaz,zeynep.yilmaz61@outlook.com,İstanbul,2026-05-10,Telefon Kılıfı,Aksesuar,1,67.77,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1428,Can Demir,can.demir98@outlook.com,Bursa,2026-03-02,Kablosuz Kulaklık,Elektronik,1,545.87,Kredi Kartı,Teslim Edildi,TRUE
+SP-1429,Ali Yılmaz,ALI.YILMAZ64@GMAIL.COM,Konya,2026-10-15,Tost Makinesi,Ev,5,766.87,Kredi Kartı,Teslim Edildi,TRUE
+SP-1430,Can Doğan,can.dogan22hotmail.com,Ankara,NA,Yoga Matı,Spor,1,241.02,Kredi Kartı,Teslim Edildi,FALSE
+SP-1449,Mehmet Kaya,mehmet.kaya60@gmail.com,Bursa,2026-08-27,Yoga Matı,Spor,2,262.75,Kapıda Ödeme,Kargoda,TRUE
+SP-1431,Burak Aydın,burak.aydin34@hotmail.com,Antalya,2026-01-30,Tost Makinesi,Ev,1,1769.44,Kredi Kartı,İptal,TRUE
+SP-1432,Deniz Öztürk,deniz.ozturk29@outlook.com,Antalya,2026-07-22,Yoga Matı,Spor,2,411.01,Kredi Kartı,Kargoda,TRUE
+SP-1433,Fatma Kılıç,fatma.kilic23@yahoo.com,Ankara,2026-02-06,Python Eğitim Kitabı,Kitap,1,406.41,Kredi Kartı,Teslim Edildi,TRUE
+SP-1434,Ayşe Yılmaz,ayse.yilmaz77@gmail.com,İstanbul,2026-02-24,Kablosuz Kulaklık,Elektronik,3,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1435,Ali Aydın,ali.aydin16@gmail.com,İstanbul,2026-02-22,Python Eğitim Kitabı,Kitap,1,217.08,Havale/EFT,Teslim Edildi,TRUE
+SP-1436,Fatma Öztürk,fatma.ozturk37@,İzmir,2026-02-13,Powerbank 10000mah,Elektronik,5,NA,Havale/EFT,Teslim Edildi,FALSE
+SP-1437,Selin Çelik,selin.celik34@gmail.com,Konya,2026-03-18,Dumbell Seti,Spor,1,1012.78,Havale/EFT,Kargoda,TRUE
+SP-1438,Mehmet Kaya,mehmet.kaya55@yahoo.com,Bursa,2026-06-20,Dumbell Seti,Spor,1,1096.34,Kapıda Ödeme,Kargoda,TRUE
+SP-1439,Can Kılıç,can.kilic61@hotmail.com,İstanbul,NA,Laptop Çantası,Aksesuar,2,636.7,Havale/EFT,Teslim Edildi,TRUE
+SP-1440,Ahmet Demir,ahmet.demir55@,İstanbul,2026-02-07,Powerbank 10000mah,Elektronik,2,684.82,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1441,NA,mehmet.demir53@outlook.com,Adana,2026-05-27,Python Eğitim Kitabı,Kitap,2,358.45,Kredi Kartı,Teslim Edildi,TRUE
+SP-1442,Can Çelık,can.celik12@yahoo.com,Ankara,2026-07-25,Tost Makinesi,Ev,2,1252.06,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1443,Merve Öztürk,merve.ozturk14@gmail.com,Konya,2026-01-15,Telefon Kılıfı,Aksesuar,1,70.39,Kredi Kartı,İptal,TRUE
+NA,Fatma Çelik,fatma.celik6@gmail.com,İzmir,2026-07-02,Powerbank 10000mah,Elektronik,2,690.67,Kredi Kartı,Kargoda,TRUE
+SP-1445,Zeynep Öztürk,zeynep.ozturk49@yahoo.com,Konya,2026-03-24,Kahve Makinesi,Ev,3,1132.31,Kredi Kartı,İptal,TRUE
+SP-1446,Can Doğan,can.dogan44@outlook.com,Konya,2026-01-21,Tost Makinesi,Ev,4,NA,Kredi Kartı,Teslim Edildi,TRUE
+SP-1447,Emre Yılmaz,NA,İzmir,NA,Telefon Kılıfı,Aksesuar,1,205.6,Kredi Kartı,Kargoda,FALSE
+SP-1448,NA,burak.demir53@hotmail.com,Antalya,2026-06-10,Powerbank 10000mah,Elektronik,1,688.67,Kredi Kartı,Teslim Edildi,TRUE
+SP-1450,Selin Arslan,SELIN.ARSLAN20@YAHOO.COM,Ankara,2026-01-17,Laptop Çantası,Aksesuar,1,636.26,Kredi Kartı,Kargoda,TRUE
+SP-1452,Zeynep Öztürk,zeynep.ozturk46@yahoo.com,Antalya,2026-04-12,Python Eğitim Kitabı,Kitap,2,294.12,Kredi Kartı,İade,TRUE
+SP-1453,Elif Aydın,elif.aydin58@hotmail.com,Adana,2026-02-19,Powerbank 10000mah,Elektronik,2,NA,Kredi Kartı,Kargoda,TRUE
+SP-1454,Zeynep Aydın,zeynep.aydin64@yahoo.com,İzmir,2026-10-05,Kablosuz Kulaklık,Elektronik,1,676.46,Kredi Kartı,Kargoda,TRUE
+SP-1455,Can Öztürk,can.ozturk90@gmail.com,Konya,2026-02-15,Roman Kitap,Kitap,2,107.05,Kredi Kartı,Teslim Edildi,TRUE
+SP-1456,Burak Çelık,burak.celik61@gmail.com,Konya,2026-07-31,Roman Kitap,Kitap,3,97.54,Havale/EFT,İade,TRUE
+SP-1457,Ali Öztürk,ali.ozturk48@outlook.com,Antalya,2026-05-04,Laptop Çantası,Aksesuar,NA,252.29,Kredi Kartı,Teslim Edildi,TRUE
+SP-1459,Selin Öztürk,selin.ozturk46@hotmail.com,Ankara,2026-10-02,Kablosuz Kulaklık,Elektronik,1,NA,Kredi Kartı,İptal,TRUE
+SP-1460,Burak Kılıç,NA,Bursa,2026-04-17,Powerbank 10000mah,Elektronik,NA,344.37,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1461,Burak Arslan,NA,İzmir,2026-09-05,Telefon Kılıfı,Aksesuar,1,94.16,Kredi Kartı,İptal,FALSE
+SP-1462,Can Doğan,NA,Adana,2026-05-18,Telefon Kılıfı,Aksesuar,1,101.1,Kapıda Ödeme,İptal,FALSE
+SP-1464,Selin Öztürk,selin.ozturk58@hotmail.com,Antalya,2026-07-29,Roman Kitap,Kitap,1,95.96,Kapıda Ödeme,Kargoda,TRUE
+SP-1465,Zeynep Demir,zeynep.demir73@outlook.com,Antalya,2026-05-26,Dumbell Seti,Spor,3,485.61,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1466,Fatma Şahin,FATMA.SAHIN16@YAHOO.COM,İzmir,2026-05-02,Kablosuz Kulaklık,Elektronik,1,1052.04,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1467,Ahmet Doğan,ahmet.dogan54@outlook.com,Konya,2026-02-10,Kahve Makinesi,Ev,NA,NA,Kredi Kartı,Kargoda,TRUE
+SP-1468,Merve Aydın,merve.aydin42@yahoo.com,İstanbul,2026-07-08,Tost Makinesi,Ev,1,813.02,Kredi Kartı,Teslim Edildi,TRUE
+SP-1469,Ali Kaya,ali.kaya22@hotmail.com,İstanbul,2026-03-17,Yoga Matı,Spor,2,248.8,Kredi Kartı,Kargoda,TRUE
+SP-1470,Burak Arslan,burak.arslan38@gmail.com,Konya,2026-04-16,Yoga Matı,Spor,2,246.57,Kapıda Ödeme,İptal,TRUE
+SP-1472,Ayşe Çelik,ayse.celik19@yahoo.com,Adana,2026-01-09,Roman Kitap,Kitap,1,NA,Kredi Kartı,Kargoda,TRUE
+SP-1473,Zeynep Öztürk,NA,Adana,2026-08-05,Laptop Çantası,Aksesuar,2,332.84,Havale/EFT,Kargoda,FALSE
+SP-1474,Ayşe Şahin,ayse.sahin13@outlook.com,Antalya,2026-07-27,Powerbank 10000mah,Elektronik,1,321.26,Havale/EFT,Kargoda,TRUE
+SP-1475,Deniz Kılıç,deniz.kilic62@outlook.com,Adana,2026-06-11,Yoga Matı,Spor,1,370.16,Kredi Kartı,Teslim Edildi,TRUE
+SP-1476,Ali Kaya,ali.kaya75@gmail.com,Ankara,2026-01-24,Telefon Kılıfı,Aksesuar,3,189.05,Kapıda Ödeme,Teslim Edildi,TRUE
+SP-1477,Elif Arslan,elif.arslan2@outlook.com,İzmir,2026-09-05,Dumbell Seti,Spor,1,1092.86,Kredi Kartı,Kargoda,TRUE
+SP-1478,Ahmet Şahin,ahmet.sahin25@yahoo.com,İzmir,2026-10-06,Tost Makinesi,Ev,5,1515.11,Kapıda Ödeme,İptal,TRUE
+SP-1479,Ali Çelik,ali.celik56@yahoo.com,Konya,2026-05-28,Laptop Çantası,Aksesuar,2,272.6,Kredi Kartı,Teslim Edildi,TRUE
+NA,Ali Arslan,ali.arslan76@,İzmir,2026-06-30,Yoga Matı,Spor,1,169.38,Kredi Kartı,İade,FALSE
+SP-1481,Ayşe Çelik,ayse.celik29@gmail.com,İzmir,2026-07-17,Telefon Kılıfı,Aksesuar,1,249.22,Kapıda Ödeme,İptal,TRUE
+SP-1482,Emre Kılıç,NA,Antalya,2026-08-25,Telefon Kılıfı,Aksesuar,NA,189.83,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1483,Elif Aydın,NA,Ankara,2026-06-04,Roman Kitap,Kitap,5,130.65,Kapıda Ödeme,İptal,FALSE
+SP-1484,Burak Yılmaz,burak.yilmaz8@outlook.com,Adana,2026-02-19,Python Eğitim Kitabı,Kitap,4,373.8,Kredi Kartı,Teslim Edildi,TRUE
+SP-1485,Deniz Şahin,deniz.sahin87@hotmail.com,İzmir,2026-01-04,Kahve Makinesi,Ev,2,1231.55,Havale/EFT,Teslim Edildi,TRUE
+SP-1486,Fatma Kaya,fatma.kaya39@yahoo.com,Ankara,2026-10-07,Python Eğitim Kitabı,Kitap,2,185.92,Havale/EFT,Teslim Edildi,TRUE
+SP-1487,Mehmet Doğan,mehmet.dogan76@yahoo.com,İzmir,2026-02-24,Kahve Makinesi,Ev,1,1360.81,Kredi Kartı,Teslim Edildi,TRUE
+SP-1488,Burak Kılıç,burak.kilic93@yahoo.com,Ankara,2026-09-15,Python Eğitim Kitabı,Kitap,4,190.23,Havale/EFT,İade,TRUE
+SP-1489,Emre Çelik,emre.celik78@hotmail.com,Antalya,2026-09-27,Roman Kitap,Kitap,3,78.87,Kredi Kartı,Kargoda,TRUE
+SP-1490,Fatma Kaya,NA,Ankara,2026-07-16,Powerbank 10000mah,Elektronik,2,499.77,Kapıda Ödeme,Teslim Edildi,FALSE
+SP-1491,Selin Yılmaz,selin.yilmaz74@hotmail.con,Bursa,2026-05-27,Telefon Kılıfı,Aksesuar,2,121.02,Havale/EFT,Teslim Edildi,FALSE
+SP-1492,Ahmet Demir,ahmet.demir24@yahoo.con,Ankara,2026-08-31,Kablosuz Kulaklık,Elektronik,1,719.67,Kredi Kartı,Teslim Edildi,FALSE
+SP-1493,Selin Kaya,selin.kaya77outlook.com,Konya,2026-05-09,Telefon Kılıfı,Aksesuar,NA,208.65,Havale/EFT,İptal,FALSE
+SP-1494,Mustafa Kılıç,mustafa.kilic34gmail.com,Bursa,2026-06-21,Kablosuz Kulaklık,Elektronik,4,859.46,Kredi Kartı,İade,FALSE
+SP-1495,Zeynep Kaya,zeynep.kaya17@outlook.com,İstanbul,2026-09-17,Roman Kitap,Kitap,NA,147.76,Havale/EFT,İptal,TRUE
+SP-1496,Can Kılıç,can.kilic99@yahoo.com,Bursa,2026-10-09,Roman Kitap,Kitap,2,NA,Havale/EFT,İade,TRUE
+SP-1497,Fatma Kaya,fatma.kaya69@gmail.com,İstanbul,2026-05-08,Tost Makinesi,Ev,1,711.05,Havale/EFT,Teslim Edildi,TRUE
+SP-1498,Ali Demir,ali.demir70@hotmail.com,Adana,2026-04-23,Tost Makinesi,Ev,2,1137.6,Kredi Kartı,İptal,TRUE
+SP-1499,Ahmet Aydın,ahmet.aydin18@hotmail.com,Antalya,2026-07-10,Roman Kitap,Kitap,2,161.72,Kredi Kartı,Kargoda,TRUE
+SP-1500,Ali Çelik,ali.celik79@yahoo.com,Konya,2026-08-16,Tost Makinesi,Ev,NA,1122.59,Kredi Kartı,İptal,TRUE
