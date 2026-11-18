@@ -1,0 +1,155 @@
+# E-ticaret sipariş verisi temizleme ve raporlama
+library(tidyverse)
+library(lubridate)
+
+# ---------- 1. OKU ----------
+ham <- read_csv("siparisler_ham.csv", col_types = cols(.default = "c"))
+
+anahtar <- function(x) x |>
+  str_to_lower(locale = "tr") |>
+  str_replace_all(c("ı"="i","ö"="o","ü"="u","ş"="s","ç"="c","ğ"="g"))
+
+df <- ham |> distinct() |> mutate(across(everything(), str_squish))
+
+# ---------- 2. METİN SÜTUNLARI ----------
+df <- df |> mutate(
+  sehir = case_match(anahtar(sehir),
+                     c("istanbul","ist.") ~ "İstanbul",
+                     c("ankara","ankra")  ~ "Ankara",
+                     c("izmir","izmr")    ~ "İzmir",
+                     c("antalya","antalaya") ~ "Antalya",
+                     "bursa" ~ "Bursa", "adana" ~ "Adana", "konya" ~ "Konya"),
+  
+  odeme_yontemi = case_when(
+    anahtar(odeme_yontemi) %in% c("kk", "kredi karti") ~ "Kredi Kartı",
+    str_starts(anahtar(odeme_yontemi), "havale")        ~ "Havale/EFT",
+    str_starts(anahtar(odeme_yontemi), "kapida")        ~ "Kapıda Ödeme"),
+  
+  kategori = case_match(anahtar(kategori),
+                        c("elektronik", "elektronk")  ~ "Elektronik",
+                        c("aksesuar", "aksesuvar")    ~ "Aksesuar",
+                        "spor"                        ~ "Spor",
+                        c("kitap", "kitab")           ~ "Kitap",
+                        "ev"                          ~ "Ev"),
+  
+  durum = case_match(anahtar(durum),
+                     "teslim edildi" ~ "Teslim Edildi",
+                     "iptal"         ~ "İptal",
+                     "iade"          ~ "İade",
+                     "kargoda"       ~ "Kargoda"),
+  
+ 
+  # Türkçe baş harf büyütme (str_to_title yerine)
+  buyuk <- setNames(LETTERS, letters)
+  buyuk[c("i", "ç", "ğ", "ı", "ö", "ş", "ü")] <- c("İ", "Ç", "Ğ", "I", "Ö", "Ş", "Ü")
+  
+  bas_harf_buyut <- function(x) {
+    x <- str_to_lower(x, locale = "tr")
+    sapply(str_split(x, " "), function(w) {
+      ilk <- str_sub(w, 1, 1)
+      str_c(str_c(ifelse(ilk %in% names(buyuk), buyuk[ilk], ilk), str_sub(w, 2)), collapse = " ")
+    })
+  }
+
+
+# ---------- 3. TARİH, FİYAT, ADET ----------
+tarih_coz <- function(x) {
+  p <- str_match(x, "^([A-Za-z]+) (\\d{1,2}), (\\d{4})$")
+  ingilizce <- make_date(as.integer(p[, 4]), match(p[, 2], month.name), as.integer(p[, 3]))
+  case_when(
+    str_detect(x, "^\\d{4}-\\d{2}-\\d{2}$")       ~ ymd(x, quiet = TRUE),   # 2026-04-22
+    str_detect(x, "^\\d{2}[/.]\\d{2}[/.]\\d{4}$") ~ dmy(x, quiet = TRUE),   # 06/07/2026, 06.07.2026
+    str_detect(x, "^\\d{2}-\\d{2}-\\d{2}$")       ~ dmy(x, quiet = TRUE),   # 22-04-26
+    str_detect(x, "^[A-Za-z]+ \\d{1,2}, \\d{4}$") ~ ingilizce               # May 5, 2026
+  )
+}
+
+df <- df |> mutate(
+  tarih = tarih_coz(tarih),
+  
+  birim_fiyat = birim_fiyat |>
+    str_remove_all("[^0-9,.-]") |>
+    str_replace(",", ".") |>
+    as.numeric() |> suppressWarnings(),
+  birim_fiyat = if_else(birim_fiyat > 0 & birim_fiyat <= 5000, birim_fiyat, NA_real_),
+  
+  adet = case_match(adet, "bir" ~ "1", "iki" ~ "2", "üç" ~ "3", .default = adet) |>
+    as.numeric() |> suppressWarnings(),
+  adet = if_else(adet >= 1 & adet <= 10, adet, NA_real_)
+)
+
+# ---------- 4. E-POSTA BAYRAĞI ----------
+df <- df |> mutate(
+  email_gecerli = str_detect(str_to_lower(email), "^[^@\\s]+@[^@\\s]+\\.(com|net|org)$") |> replace_na(FALSE)
+)
+
+# ---------- 5. TEMİZ VERİYİ KAYDET ----------
+write_csv(df, "siparisler_temiz.csv")
+
+# ---------- 6. RAPORLAMA ----------
+# Ciro: iptal ve iade edilen siparişler hariç
+satislar <- df |>
+  filter(is.na(durum) | !durum %in% c("İptal", "İade")) |>
+  mutate(ciro = adet * birim_fiyat)
+
+# Şehre göre
+satislar |> group_by(sehir) |>
+  summarise(siparis = n(), hesaplanan = sum(!is.na(ciro)), ciro = sum(ciro, na.rm = TRUE)) |>
+  arrange(desc(ciro))
+
+# Kategoriye göre
+satislar |> group_by(kategori) |>
+  summarise(siparis = n(), hesaplanan = sum(!is.na(ciro)), ciro = sum(ciro, na.rm = TRUE)) |>
+  arrange(desc(ciro))
+
+# Durum dağılımı (iptal/iade oranı)
+df |> filter(!is.na(durum)) |> count(durum) |>
+  mutate(oran = round(100 * n / sum(n), 1))
+
+# Aylık sipariş trendi
+aylik <- satislar |> filter(!is.na(tarih)) |>
+  mutate(ay = floor_date(tarih, "month")) |> count(ay) |>
+  ggplot(aes(ay, n)) + geom_line() + geom_point() +
+  labs(title = "Aylık sipariş sayısı", x = NULL, y = "Sipariş")
+aylik
+ggsave("aylik_siparis.png", aylik, width = 7, height = 4)
+
+nrow(df)
+[1] 500
+> colSums(is.na(df))
+siparis_id   musteri_adi         email 
+8            14            47 
+sehir         tarih          urun 
+0            15             0 
+kategori          adet   birim_fiyat 
+0            49            47 
+odeme_yontemi         durum email_gecerli 
+0            28             0 
+> head(df$musteri_adi)
+[1] "Burak Kaya"    "Emre Demir"    "Selin �\u009eahin"  
+[4] "Mustafa �\u0087elik" "Deniz Kılıç"   NA             
+> head(df$musteri_adi, 10)
+[1] "Burak Kaya"    "Emre Demir"    "Selin Şahin"  
+[4] "Mustafa Çelik" "Deniz Kılıç"   NA             
+[7] "Emre Demir"    "Burak Arslan"  "Ahmet Kaya"   
+[10] "Emre Öztürk"  
+
+# Türkçe baş harf büyütme (str_to_title yerine)
+> buyuk <- setNames(LETTERS, letters)
+> buyuk[c("i", "ç", "ğ", "ı", "ö", "ş", "ü")] <- c("İ", "Ç", "Ğ", "I", "Ö", "Ş", "Ü")
+> 
+  > bas_harf_buyut <- function(x) {
+    +     x <- str_to_lower(x, locale = "tr")
+    +     sapply(str_split(x, " "), function(w) {
+      +         ilk <- str_sub(w, 1, 1)
+      +         str_c(str_c(ifelse(ilk %in% names(buyuk), buyuk[ilk], ilk), str_sub(w, 2)), collapse = " ")
+      +     })
+    + }
+> df$musteri_adi |> str_subset("ahin|alik") |> unique()
+[1] "Selin �\u009eahin"   "Ay�\u009fe �\u009eahin"    "Fatma �\u009eahin"  
+[4] "Ali �\u009eahin"     "Merve �\u009eahin"   "Can �\u009eahin"    
+[7] "Ahmet �\u009eahin"   "Elif �\u009eahin"    "Deniz �\u009eahin"  
+[10] "Zeynep �\u009eahin"  "Burak �\u009eahin"   "Emre �\u009eahin"   
+[13] "Mustafa �\u009eahin" "Okan �\u009eahin"   
+> n_distinct(df$urun)
+[1] 10
